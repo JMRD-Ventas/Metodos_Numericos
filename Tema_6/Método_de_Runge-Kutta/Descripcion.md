@@ -11,7 +11,7 @@ Sin embargo, el método RK4 requiere más cálculos que el método de Euler, ya 
 
 Es importante mencionar que existen otros métodos de Runge-Kutta de órdenes superiores, como el RK5 (quinto orden) o el RK8 (octavo orden), que pueden proporcionar aún más precisión, pero también requieren más cálculos.
 
-## Pseudocodigo
+## Pasos para su solución
 1. Definir la ecuación diferencial y las condiciones iniciales: Supongamos que tenemos una EDO de primer orden de la forma: dy/dx = f(x, y), con la condición inicial y(x0) = y0.
 
 2. Dividir el intervalo de interés [x0, xn] en n subintervalos iguales de tamaño h = (xn - x0) / n.
