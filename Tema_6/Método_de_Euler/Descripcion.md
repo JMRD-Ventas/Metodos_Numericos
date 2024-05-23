@@ -1,4 +1,4 @@
-# Metodo de cuadratico.
+# Metodo de Eulerd
 
 ## ¿Qué es?
 El método de Euler es un método numérico simple y ampliamente utilizado para resolver ecuaciones diferenciales ordinarias (EDO) de forma aproximada. Se basa en la idea de utilizar una línea tangente a la curva solución en un punto dado para aproximar el valor de la solución en un punto cercano. A continuación, describiré los pasos del método de Euler:
@@ -20,7 +20,7 @@ El método de Euler es un método de paso simple, lo que significa que solo util
     
 Es importante tener en cuenta que el método de Euler es un método de aproximación y puede introducir errores acumulativos a medida que se avanza en la solución. Por lo tanto, en general, se recomienda utilizar métodos más precisos, como los métodos de Runge-Kutta, cuando se requiere una mayor precisión en la solución.
 
-## Pseudocodigo.
+## Pseudocodigo
     ENTRADA: f(x, y) (función que define la ecuación diferencial), x0 (valor inicial de x), y0 (valor inicial de y), xn (valor final de x), n (número de subintervalos)
     
     h = (xn - x0) / n (tamaño del paso)
@@ -49,45 +49,32 @@ Es importante tener en cuenta que el método de Euler es un método de aproximac
 Este pseudocódigo implementa el método de Euler de forma iterativa. En cada iteración, se calcula la pendiente en el punto actual (x, y) y se utiliza para aproximar el siguiente valor de y utilizando la fórmula y = y + h * pendiente. Luego, se avanza al siguiente punto actualizando x con x = x + h.
 Es importante tener en cuenta que este pseudocódigo asume que la ecuación diferencial es de primer orden y que se conocen los valores iniciales x0 y y0. Además, el método de Euler es solo una aproximación numérica, y su precisión dependerá del tamaño del paso h y de la naturaleza de la ecuación diferencial.
 
-## Implementación de los codigos en Python.
+## Implementación de los codigos en Python
 
 ### Ejercicio 1.py
-#### Codigo.
-
-#### Comprobacion.
+#### Codigo
+#### Comprobacion
 
 
 
 ### Ejercicio 2.py
-#### Codigo.
-
-
-
-#### Comprobacion.
+#### Codigo
+#### Comprobacion
 
 
 
 ### Ejercicio 3.py
-#### Codigo.
-
-
-    
-#### Comprobacion.
+#### Codigo    
+#### Comprobacion
 
 
 
 ### Ejercicio 4.py
-#### Codigo.
-   
-
-
-#### Comprobacion.
+#### Codigo
+#### Comprobacion
 
 
 
 ### Ejercicio 5.py
-#### Codigo.
-   
-
-
-#### Comprobacion.
+#### Codigo
+#### Comprobacion
