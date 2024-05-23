@@ -42,4 +42,44 @@
 
 # Implementacion y ejercicios
 [Ejercicios del metodo de Gauss Jordan](https://docs.google.com/spreadsheets/d/13LaG-yuZGNyTcdEdCONMtDpY-dnTvp2FBTZWmA-gCLY/edit?usp=sharing)
+
+## Implementación de los metodos en excel
+
+### Ejercicio 1
+#### Metodologia
+[![imagen-2024-05-23-082336032.png](https://i.postimg.cc/VktpMfdC/imagen-2024-05-23-082336032.png)](https://postimg.cc/w16wYd5q)
+#### Comprobacion
+[![imagen-2024-05-23-082428875.png](https://i.postimg.cc/9ftk8LPX/imagen-2024-05-23-082428875.png)](https://postimg.cc/yJxnWXr2)
+
+
+### Ejercicio 2
+#### Metodologia
+[![imagen-2024-05-23-082511077.png](https://i.postimg.cc/KvkHSG7H/imagen-2024-05-23-082511077.png)](https://postimg.cc/QHDbcryQ)
+[![imagen-2024-05-23-082600244.png](https://i.postimg.cc/8cFtS4v6/imagen-2024-05-23-082600244.png)](https://postimg.cc/D4TqQqBv)
+#### Comprobacion
+![image](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/158504061/23589834-e01e-455d-93fb-742cd106d7f3)
+
+
+### Ejercicio 3
+#### Metodologia    
+[![imagen-2024-05-23-082823677.png](https://i.postimg.cc/cHzBX3z4/imagen-2024-05-23-082823677.png)](https://postimg.cc/R6ct0W9j)
+#### Comprobacion
+![image](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/158504061/27620fa0-2684-4061-9743-92daf8562ff9)
+
+
+
+### Ejercicio 4
+#### Metodologia
+[![imagen-2024-05-23-082920988.png](https://i.postimg.cc/RCjj0J0B/imagen-2024-05-23-082920988.png)](https://postimg.cc/CdsvP1DP)
+#### Comprobacion
+[![imagen-2024-05-23-082952948.png](https://i.postimg.cc/dVFp2MdN/imagen-2024-05-23-082952948.png)](https://postimg.cc/hfC2n52V)
+
+
+
+### Ejercicio 5
+#### Metodologia
+[![imagen-2024-05-23-083027258.png](https://i.postimg.cc/fL1gk1DK/imagen-2024-05-23-083027258.png)](https://postimg.cc/sQ9JN6BQ)
+#### Comprobacion
+![image](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/158504061/c240c536-bfeb-407b-a0d6-2d22cfa0ce7f)
+
   
