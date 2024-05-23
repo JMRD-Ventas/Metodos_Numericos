@@ -42,7 +42,7 @@ Es importante tener en cuenta que la interpolación de Lagrange solo proporciona
   
       devolver valor_interpolado
 
-## Comprobacion de los codigos.
+## Implementación de los codigos en Python.
 ### Ejercicio 1.py
 #### Codigo.
    

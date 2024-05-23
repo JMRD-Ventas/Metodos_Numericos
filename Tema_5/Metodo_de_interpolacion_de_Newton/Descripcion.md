@@ -47,7 +47,7 @@ Donde  representa la diferencia dividida de orden  de la función  en los puntos
 
     devolver p_val
 
-## Comprobacion de los codigos.
+## Implementación de los codigos en Python.
 ### Ejercicio1.py
 #### Codigo.
        from math import factorial

@@ -30,7 +30,7 @@ La interpolación lineal es un caso en donde se usa un polinomio de primer grado
         Imprimir "El valor interpolado en x =", x, "es:", y
     Fin Programa
 
-## Comprobacion de los codigos.
+## Implementación de los codigos en Python.
 ### Ejercicio 1.py
 #### Codigo.
    
