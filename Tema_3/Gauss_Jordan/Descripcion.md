@@ -78,8 +78,8 @@
 
 ### Ejercicio 5
 #### Metodologia
-[![imagen-2024-05-23-083027258.png](https://i.postimg.cc/fL1gk1DK/imagen-2024-05-23-083027258.png)](https://postimg.cc/sQ9JN6BQ)
+[![imagen-2024-05-23-083243644.png](https://i.postimg.cc/dV0mP4Kt/imagen-2024-05-23-083243644.png)](https://postimg.cc/XpTy9KJT)
 #### Comprobacion
-![image](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/158504061/c240c536-bfeb-407b-a0d6-2d22cfa0ce7f)
+[![imagen-2024-05-23-083312243.png](https://i.postimg.cc/rpBS4TRK/imagen-2024-05-23-083312243.png)](https://postimg.cc/f3vt46KN)
 
   
