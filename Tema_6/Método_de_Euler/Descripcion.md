@@ -53,28 +53,99 @@ Es importante tener en cuenta que este pseudocódigo asume que la ecuación dife
 
 ### Ejercicio 1.py
 #### Codigo
-#### Comprobacion
+    def euler(f, y0, t0, t_final, n):
+        """
+        Resuelve una ecuación diferencial usando el método de Euler.
+    
+        Argumentos:
+        f -- función que define la ecuación diferencial (dy/dt = f(t, y))
+        y0 -- condición inicial para y
+        t0 -- valor inicial de t
+        t_final -- valor final de t
+        n -- número de pasos
+    
+        Retorna:
+        t -- lista de valores de t
+        y -- lista de valores de y correspondientes a los valores de t
+        """
+        h = (t_final - t0) / n  # Tamaño del paso
+        t = [t0]
+        y = [y0]
+    
+        for i in range(n):
+            y_nuevo = y[-1] + h * f(t[-1], y[-1])
+            t_nuevo = t[-1] + h
+            t.append(t_nuevo)
+            y.append(y_nuevo)
+    
+        return t, y
+    
+    # Ejemplo de uso
+    def ecuacion_diferencial(t, y):
+        return y  # dy/dt = y (ecuación diferencial a resolver)
+    
+    y0 = 1  # Condición inicial
+    t0 = 0  # Valor inicial de t
+    t_final = 2  # Valor final de t
+    n = 10  # Número de pasos
+    
+    t, y = euler(ecuacion_diferencial, y0, t0, t_final, n)
+    
+    print("t\ty")
+    for t_val, y_val in zip(t, y):
+        print(f"{t_val:.2f}\t{y_val:.4f}")
+#### Ejecución
 
 
 
 ### Ejercicio 2.py
 #### Codigo
-#### Comprobacion
+    def largest_palindrome_product(digits):
+        def is_palindrome(n):
+            return str(n) == str(n)[::-1]
+    
+        min_value = 10 ** (digits - 1)
+        max_value = 10 ** digits - 1
+        largest = max_value ** 2
+        for i in range(max_value, min_value - 1, -1):
+            for j in range(i, min_value - 1, -1):
+                product = i * j
+                if is_palindrome(product) and product < largest:
+                    largest = product
+        return largest
+    
+    print(largest_palindrome_product(3))  # Salida: 906609
+#### Ejecución
 
 
 
 ### Ejercicio 3.py
 #### Codigo    
-#### Comprobacion
+    def gcd(a, b):
+        while b:
+            a, b = b, a % b
+        return a
+    
+    def lcm(a, b):
+        return a * b // gcd(a, b)
+    
+    def smallest_multiple(n):
+        lcm_value = 1
+        for i in range(1, n + 1):
+            lcm_value = lcm(lcm_value, i)
+        return lcm_value
+    
+    print(smallest_multiple(20))  # Salida: 232792560
+#### Ejecución
 
 
 
 ### Ejercicio 4.py
 #### Codigo
-#### Comprobacion
+#### Ejecución
 
 
 
 ### Ejercicio 5.py
 #### Codigo
-#### Comprobacion
+#### Ejecución
