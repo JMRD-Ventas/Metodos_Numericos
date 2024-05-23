@@ -25,5 +25,36 @@
   - Finalmente, sustituyes los valores obtenidos en las ecuaciones originales para asegurarte de que sean soluciones válidas del 
     sistema de ecuaciones.
 
+## Implementación de los metodos en excel
+  ### Ejercicio 1
+  #### Metodologia
+  [![imagen-2024-05-23-085844584.png](https://i.postimg.cc/MH7TL2G3/imagen-2024-05-23-085844584.png)](https://postimg.cc/zHf8LQKT)
+  #### Comprobacion
+  [![imagen-2024-05-23-085858929.png](https://i.postimg.cc/kXCDb4j0/imagen-2024-05-23-085858929.png)](https://postimg.cc/SjZy0ybd)
+  
+  ### Ejercicio 2
+  #### Metodologia
+  [![imagen-2024-05-23-090135261.png](https://i.postimg.cc/TwmYyMn2/imagen-2024-05-23-090135261.png)](https://postimg.cc/r0VLbHh7)
+  #### Comprobacion
+  [![imagen-2024-05-23-090154210.png](https://i.postimg.cc/vTs8fqvr/imagen-2024-05-23-090154210.png)](https://postimg.cc/mzmGGSJk)
+  
+  ### Ejercicio 3
+  #### Metodologia 
+  [![imagen-2024-05-23-090314876.png](https://i.postimg.cc/rFgyR9R4/imagen-2024-05-23-090314876.png)](https://postimg.cc/nCjf6BkV)
+  #### Comprobacion
+  [![imagen-2024-05-23-090327700.png](https://i.postimg.cc/j5ztx6rL/imagen-2024-05-23-090327700.png)](https://postimg.cc/Fds2GLz4)
+  
+  ### Ejercicio 4
+  #### Metodologia
+  [![imagen-2024-05-23-090507736.png](https://i.postimg.cc/D0vk7tgM/imagen-2024-05-23-090507736.png)](https://postimg.cc/7GWQVtj3)
+  #### Comprobacion
+  [![imagen-2024-05-23-090524128.png](https://i.postimg.cc/hv2FvpZP/imagen-2024-05-23-090524128.png)](https://postimg.cc/BPP7wcGd)
+  
+  ### Ejercicio 5
+  #### Metodologia
+  [![imagen-2024-05-23-090622696.png](https://i.postimg.cc/Y2RBdC2K/imagen-2024-05-23-090622696.png)](https://postimg.cc/jCD15KJZ)
+  #### Comprobacion
+  [![imagen-2024-05-23-090641452.png](https://i.postimg.cc/MKr283j9/imagen-2024-05-23-090641452.png)](https://postimg.cc/0bmHYfnS)
+
 ## Implementacion y ejercicios
 [Ejercicios del metodo de Gauss](https://docs.google.com/spreadsheets/d/1VNyxf74rtmIrbNZXjKSa90xqo4Xoaky72CX9Hhu8SLU/edit?usp=sharing)
