@@ -40,9 +40,6 @@
  - Si estás buscando la inversa de una matriz, puedes continuar el algoritmo hasta obtener una matriz identidad en el 
   lado izquierdo de la matriz aumentada.
 
-# Implementacion y ejercicios
-[Ejercicios del metodo de Gauss Jordan](https://docs.google.com/spreadsheets/d/13LaG-yuZGNyTcdEdCONMtDpY-dnTvp2FBTZWmA-gCLY/edit?usp=sharing)
-
 ## Implementación de los metodos en excel
 
 ### Ejercicio 1
@@ -81,5 +78,9 @@
 [![imagen-2024-05-23-083243644.png](https://i.postimg.cc/dV0mP4Kt/imagen-2024-05-23-083243644.png)](https://postimg.cc/XpTy9KJT)
 #### Comprobacion
 [![imagen-2024-05-23-083312243.png](https://i.postimg.cc/rpBS4TRK/imagen-2024-05-23-083312243.png)](https://postimg.cc/f3vt46KN)
+
+## Ejercicios en excel
+[Ejercicios del metodo de Gauss Jordan](https://docs.google.com/spreadsheets/d/13LaG-yuZGNyTcdEdCONMtDpY-dnTvp2FBTZWmA-gCLY/edit?usp=sharing)
+
 
   
