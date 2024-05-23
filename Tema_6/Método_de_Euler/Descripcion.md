@@ -11,9 +11,9 @@ El método de Euler es un método numérico simple y ampliamente utilizado para 
 
 4. Para cada subintervalo i = 0, 1, 2, ..., n-1, realizar los siguientes pasos:
 
-a. Calcular la pendiente en el punto (xi, yi) utilizando la función f(x, y): mi = f(xi, yi).
+    - Calcular la pendiente en el punto (xi, yi) utilizando la función f(x, y): mi = f(xi, yi).
 
-b. Aproximar el valor de y en el siguiente punto xi+1 = xi + h mediante: yi+1 = yi + h * mi.
+    - Aproximar el valor de y en el siguiente punto xi+1 = xi + h mediante: yi+1 = yi + h * mi.
 5. Repetir el paso 4 hasta alcanzar el valor final xn.
 
 El método de Euler es un método de paso simple, lo que significa que solo utiliza la información del punto actual para calcular el siguiente punto en la aproximación de la solución. La precisión de este método depende del tamaño del paso h: cuanto más pequeño sea h, más precisa será la aproximación, pero también requerirá más cálculos.
