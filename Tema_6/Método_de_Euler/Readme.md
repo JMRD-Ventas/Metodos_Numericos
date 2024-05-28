@@ -30,7 +30,7 @@ Es importante tener en cuenta que este pseudocódigo asume que la ecuación dife
 
 ## Implementación de los codigos en Python
 
-### 1. [Ejercicio_1.py](Tema_6/Método_de_Euler/Ejercicio_1.py)
+### [Ejercicio_1.py](Tema_6/Método_de_Euler/Ejercicio_1.py)
 #### Codigo
     def euler(f, y0, t0, t_final, n):
         """
