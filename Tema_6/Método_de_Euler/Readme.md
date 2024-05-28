@@ -34,7 +34,7 @@ Es importante tener en cuenta que este pseudocódigo asume que la ecuación dife
 #### Codigo
 Resuelve una ecuación diferencial usando el método de Euler.
 - Argumentos:
-    - f: función que define la ecuación diferencial (dy/dt = f(t, y))
+    - f función que define la ecuación diferencial (dy/dt = f(t, y))
     - y0: condición inicial para y, 1.
     - t0: valor inicial de t, 0.
     - t_final: valor final de t, 2.
@@ -72,8 +72,6 @@ Resuelve una ecuación diferencial usando el método de Euler.
 - Retorna:
     - t: lista de valores de "t"
     - y: lista de valores de "y" correspondientes a los valores de "t"
-
-Cada fila de la tabla muestra el valor de "t" y la aproximación correspondiente de "y" en ese punto, calculada utilizando el método de Euler. Como se puede observar, a medida que "t" aumenta, el valor de "y" también aumenta, siguiendo aproximadamente la forma exponencial de la solución exacta y(t) = e^t
   
 [![imagen-2024-05-23-100443131.png](https://i.postimg.cc/bYnjTQCZ/imagen-2024-05-23-100443131.png)](https://postimg.cc/7bqcPTy4)
 
@@ -81,11 +79,11 @@ Cada fila de la tabla muestra el valor de "t" y la aproximación correspondiente
 #### Codigo
 Resuelve una ecuación diferencial usando el método de Euler.
 - Argumentos:
-    - f -- función que define la ecuación diferencial (dy/dt = f(t, y))
-    - y0 -- condición inicial para y
-    - t0 -- valor inicial de t
-    - t_final -- valor final de t
-    - n -- número de pasos
+    - f función que define la ecuación diferencial (dy/dt = f(t, y))
+    - y0: condición inicial para y, 1.
+    - t0: valor inicial de t, 0.
+    - t_final: valor final de t, 4.
+    - n: número de pasos, 90.
 
             import numpy as np
             import matplotlib.pyplot as plt
@@ -122,8 +120,8 @@ Resuelve una ecuación diferencial usando el método de Euler.
     
 #### Ejecución
 - Retorna:
-    - t -- arreglo de valores de t
-    - y -- arreglo de valores de y correspondientes a los valores de t
+    - t: lista de valores de "t"
+    - y: lista de valores de "y" correspondientes a los valores de "t"
 [![imagen-2024-05-23-100537150.png](https://i.postimg.cc/c4NG5r2X/imagen-2024-05-23-100537150.png)](https://postimg.cc/bdL5ZNzt)
 
 ### Ejercicio 3.py
