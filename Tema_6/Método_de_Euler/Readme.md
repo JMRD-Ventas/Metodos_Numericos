@@ -70,8 +70,9 @@ Resuelve una ecuación diferencial usando el método de Euler.
 
 #### Ejecución
 - Retorna:
-    - t: lista de valores de t
-    - y: lista de valores de y correspondientes a los valores de t
+    - t: lista de valores de "t"
+    - y: lista de valores de "y" correspondientes a los valores de "t"
+
 Cada fila de la tabla muestra el valor de t y la aproximación correspondiente de y en ese punto, calculada utilizando el método de Euler. Como se puede observar, a medida que t aumenta, el valor de y también aumenta, siguiendo aproximadamente la forma exponencial de la solución exacta y(t) = e^t
   
 [![imagen-2024-05-23-100443131.png](https://i.postimg.cc/bYnjTQCZ/imagen-2024-05-23-100443131.png)](https://postimg.cc/7bqcPTy4)
