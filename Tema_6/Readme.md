@@ -29,7 +29,7 @@ El método de interpolación de Lagrange es ampliamente utilizado en diversas á
     
 Es importante tener en cuenta que la interpolación de Lagrange solo proporciona una aproximación de la función real, y la precisión de la aproximación depende de la distribución y el número de puntos de datos disponibles.
 
-------------
+    ------------
 
 # Metodo de Newton.
 
