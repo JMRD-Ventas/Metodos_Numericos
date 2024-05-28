@@ -68,13 +68,14 @@ Resuelve una ecuación diferencial usando el método de Euler.
             for t_val, y_val in zip(t, y):
                 print(f"{t_val:.2f}\t{y_val:.4f}")
 
-        
 #### Ejecución
 - Retorna:
     - t: lista de valores de t
     - y: lista de valores de y correspondientes a los valores de t
   
 [![imagen-2024-05-23-100443131.png](https://i.postimg.cc/bYnjTQCZ/imagen-2024-05-23-100443131.png)](https://postimg.cc/7bqcPTy4)
+
+------------
 
 ### Ejercicio 2.py
 #### Codigo
