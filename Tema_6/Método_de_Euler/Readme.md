@@ -33,12 +33,12 @@ Es importante tener en cuenta que este pseudocódigo asume que la ecuación dife
 ### Ejercicio 1.py
 #### Codigo
 Resuelve una ecuación diferencial usando el método de Euler.
-    Argumentos:
-    - f: función que define la ecuación diferencial (dy/dt = f(t, y))
-    - y0: condición inicial para y
-    - t0: valor inicial de t
-    - t_final: valor final de t
-    - n: número de pasos
+Argumentos:
+- f: función que define la ecuación diferencial (dy/dt = f(t, y))
+- y0: condición inicial para y
+- t0: valor inicial de t
+- t_final: valor final de t
+- n: número de pasos
     
     def euler(f, y0, t0, t_final, n):
         h = (t_final - t0) / n  # Tamaño del paso
