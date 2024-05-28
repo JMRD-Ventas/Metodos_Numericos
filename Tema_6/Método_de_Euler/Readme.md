@@ -30,7 +30,7 @@ Es importante tener en cuenta que este pseudocódigo asume que la ecuación dife
 
 ## Implementación de los codigos en Python
 
-### Ejercicio 1.py
+### 1. [Ejercicio_1.py](Tema_6/Método_de_Euler/Ejercicio_1.py)
 #### Codigo
     def euler(f, y0, t0, t_final, n):
         """
@@ -78,18 +78,24 @@ Es importante tener en cuenta que este pseudocódigo asume que la ecuación dife
 
 ### Ejercicio 2.py
 #### Codigo
-El siguiente codigo resuelve una ecuación diferencial usando el método de Euler.
-Argumentos:
-    - f -- función que define la ecuación diferencial (dy/dt = f(t, y))
-    - y0 -- condición inicial para y
-    - t0 -- valor inicial de t
-    - t_final -- valor final de t
-    - n -- número de pasos    
-        
     import numpy as np
     import matplotlib.pyplot as plt
     
     def euler(f, y0, t0, t_final, n):
+        """
+        Resuelve una ecuación diferencial usando el método de Euler.
+    
+        Argumentos:
+        f -- función que define la ecuación diferencial (dy/dt = f(t, y))
+        y0 -- condición inicial para y
+        t0 -- valor inicial de t
+        t_final -- valor final de t
+        n -- número de pasos
+    
+        Retorna:
+        t -- arreglo de valores de t
+        y -- arreglo de valores de y correspondientes a los valores de t
+        """
         h = (t_final - t0) / n  # Tamaño del paso
         t = np.linspace(t0, t_final, n + 1)
         y = np.zeros_like(t)
