@@ -70,9 +70,10 @@ Resuelve una ecuación diferencial usando el método de Euler.
 
         
 #### Ejecución
-Retorna:
+- Retorna:
     - t: lista de valores de t
     - y: lista de valores de y correspondientes a los valores de t
+  
 [![imagen-2024-05-23-100443131.png](https://i.postimg.cc/bYnjTQCZ/imagen-2024-05-23-100443131.png)](https://postimg.cc/7bqcPTy4)
 
 ### Ejercicio 2.py
