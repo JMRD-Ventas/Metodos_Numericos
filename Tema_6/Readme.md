@@ -1,11 +1,11 @@
-# Metodo de cuadratico.
+# Método de Euler
 
 ## ¿Qué es?
 La interpolación consiste en hallar un dato dentro de un intervalo en el que conocemos los valores en los extremos.
 El problema general de la interpolación se nos presenta cuando nos dan una función de la cual solo conocemos una serie de puntos de la misma:
 (xo, yo), (x1, y1),........., (xn, yn)
 
-# Metodo de Lagrange.
+# Método de Runge-Kutta
 
 ## ¿Qué es?
 El método de interpolación de Lagrange es una técnica matemática utilizada para encontrar un polinomio que pase a través de un conjunto dado de puntos de datos. Este polinomio se denomina polinomio interpolador de Lagrange.
@@ -31,7 +31,7 @@ Es importante tener en cuenta que la interpolación de Lagrange solo proporciona
 
 ------------
 
-# Metodo de Newton.
+# Método_de_Taylor
 
 ## ¿Qué es?
 
