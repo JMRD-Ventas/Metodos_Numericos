@@ -122,6 +122,7 @@ Resuelve una ecuación diferencial usando el método de Euler.
 - Retorna:
     - t: lista de valores de "t"
     - y: lista de valores de "y" correspondientes a los valores de "t"
+      
 [![imagen-2024-05-23-100537150.png](https://i.postimg.cc/c4NG5r2X/imagen-2024-05-23-100537150.png)](https://postimg.cc/bdL5ZNzt)
 
 ### Ejercicio 3.py
@@ -168,6 +169,7 @@ Resuelve una ecuación diferencial usando el método de Euler.
 - Retorna:
     - t: lista de valores de "t"
     - y: lista de valores de "y" correspondientes a los valores de "t"
+      
 [![imagen-2024-05-23-100625349.png](https://i.postimg.cc/Ls5cZfg6/imagen-2024-05-23-100625349.png)](https://postimg.cc/R3rskWTj)
 
 ### Ejercicio 4.py
@@ -214,6 +216,7 @@ Resuelve una ecuación diferencial usando el método de Euler.
 - Retorna:
     - t: lista de valores de "t"
     - y: lista de valores de "y" correspondientes a los valores de "t"
+      
 [![imagen-2024-05-23-100724206.png](https://i.postimg.cc/brxWj9WL/imagen-2024-05-23-100724206.png)](https://postimg.cc/xNdtvM0b)
 
 ### Ejercicio 5.py
@@ -272,4 +275,5 @@ Resuelve una ecuación diferencial usando el método de Euler.
 - Retorna:
     - t: lista de valores de "t"
     - y: lista de valores de "y" correspondientes a los valores de "t"
+      
 [![imagen-2024-05-23-100811985.png](https://i.postimg.cc/nhc567kY/imagen-2024-05-23-100811985.png)](https://postimg.cc/0bFcSzhb)
