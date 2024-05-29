@@ -1,16 +1,5 @@
 # Metodo de Taylor
 
-## ¿Qué es?
-El método de Taylor es otro método numérico utilizado para resolver ecuaciones diferenciales ordinarias (EDO). Se basa en la expansión en series de Taylor de la solución alrededor de un punto inicial. 
-
-El método de Taylor proporciona una aproximación polinómica de la solución en un intervalo cercano al punto inicial. La precisión de la aproximación depende del orden n de la serie de Taylor utilizada. Cuanto mayor sea n, más precisa será la aproximación, pero también requerirá más cálculos.
-
-Una ventaja del método de Taylor es que no requiere dividir el intervalo en subintervalos, como en el método de Euler o Runge-Kutta. Sin embargo, a medida que nos alejamos del punto inicial, la precisión de la aproximación disminuye, por lo que es necesario repetir el proceso en intervalos más pequeños.
-
-El método de Taylor es particularmente útil cuando se conocen las derivadas analíticas de la función f(x, y), ya que esto simplifica los cálculos. En caso contrario, las derivadas deben calcularse numéricamente, lo que puede introducir errores adicionales.
-
-Es importante tener en cuenta que el método de Taylor puede ser inestable para ciertas ecuaciones diferenciales, especialmente aquellas con soluciones altamente oscilantes o con comportamientos caóticos. En esos casos, puede ser preferible utilizar otros métodos numéricos más robustos.
-
 ## Pasos para su solución
 El procedimiento para aplicar el método de Taylor es el siguiente:
    1. Definir la ecuación diferencial y las condiciones iniciales:
@@ -37,6 +26,8 @@ El procedimiento para aplicar el método de Taylor es el siguiente:
 
 ### Ejercicio 1.py
 #### Codigo
+Se define la funcion f(x) = e^x y se solicita al usuario que ingrese el valor de a (el punto en el que se evaluará la aproximación), y el número de términos n que se utilizarán en la aproximación.
+
       import math
       
       print("Funcion es e^x")
@@ -79,11 +70,17 @@ El procedimiento para aplicar el método de Taylor es el siguiente:
       print(f"La aproximación de e^{a} usando la serie de Taylor con {n} términos es: {aproximación}")
       
 #### Comprobacion
+El resultado impreso es la aproximación de e^x usando la serie de Taylor con el número de términos especificado por el usuario.
+
+Por ejemplo, si ingresamos 
+a = 3 y n = 4, la salida podría ser algo así:
 [![imagen-2024-05-23-122006934.png](https://i.postimg.cc/KYGjM9mS/imagen-2024-05-23-122006934.png)](https://postimg.cc/FY6htVfD)
 
 
 ### Ejercicio 2.py
 #### Codigo
+Se define la funcion f(x) = sen(x) y se solicita al usuario que ingrese el valor de a (el punto en el que se evaluará la aproximación), y el número de términos n que se utilizarán en la aproximación.
+
       import math
       
       # Definir la función sin(x)
@@ -124,11 +121,17 @@ El procedimiento para aplicar el método de Taylor es el siguiente:
       # Imprimir el resultado
       print(f"La aproximación de sin({a}) usando la serie de Taylor con {n} términos es: {aproximación}")
 #### Comprobacion
+El resultado impreso es la aproximación de sen(x) usando la serie de Taylor con el número de términos especificado por el usuario.
+
+Por ejemplo, si ingresamos 
+a = 3 y n = 6, la salida podría ser algo así:
 [![imagen-2024-05-23-122224949.png](https://i.postimg.cc/59Tg1rVt/imagen-2024-05-23-122224949.png)](https://postimg.cc/SjLCfDj0)
 
 
 ### Ejercicio 3.py
 #### Codigo    
+Se define la funcion f(x) = cos(x) y se solicita al usuario que ingrese el valor de a (el punto en el que se evaluará la aproximación), y el número de términos n que se utilizarán en la aproximación.
+
       import math
       
       # Definir la función cos(x)
@@ -168,12 +171,19 @@ El procedimiento para aplicar el método de Taylor es el siguiente:
       
       # Imprimir el resultado
       print(f"La aproximación de cos({a}) usando la serie de Taylor con {n} términos es: {aproximación}")
+      
 #### Comprobacion
+El resultado impreso es la aproximación de sen(x) usando la serie de Taylor con el número de términos especificado por el usuario.
+
+Por ejemplo, si ingresamos 
+a = 6 y n = 7, la salida podría ser algo así:
 [![imagen-2024-05-23-122404912.png](https://i.postimg.cc/FHQxkJ15/imagen-2024-05-23-122404912.png)](https://postimg.cc/1fJFLXpJ)
 
 
 ### Ejercicio 4.py
 #### Codigo
+Se define la funcion f(x) = ln(1 + x) y se solicita al usuario que ingrese el valor de a (el punto en el que se evaluará la aproximación), y el número de términos n que se utilizarán en la aproximación.
+
       import math
       
       # Definir la función ln(1 + x)
@@ -207,10 +217,16 @@ El procedimiento para aplicar el método de Taylor es el siguiente:
       # Imprimir el resultado
       print(f"La aproximación de ln(1 + {a}) usando la serie de Taylor con {n} términos es: {aproximación}")
 #### Comprobacion
+El resultado impreso es la aproximación de ln(1 + a) usando la serie de Taylor con el número de términos especificado por el usuario.
+
+Por ejemplo, si ingresamos 
+a = 10 y n = 7, la salida podría ser algo así:
 [![imagen-2024-05-23-122451557.png](https://i.postimg.cc/MG6bd2y9/imagen-2024-05-23-122451557.png)](https://postimg.cc/ZWQd5QsN)
 
 ### Ejercicio 5.py
 #### Codigo
+Se define la funcion f(x) = x^3 + 2x^2 + x + 1 y se solicita al usuario que ingrese el valor de a (el punto en el que se evaluará la aproximación), y el número de términos n que se utilizarán en la aproximación.
+
       import math
       
       # Definir la función f(x) = x^3 + 2x^2 + x + 1
@@ -253,4 +269,8 @@ El procedimiento para aplicar el método de Taylor es el siguiente:
       # Imprimir el resultado
       print(f"La aproximación de f({a}) usando la serie de Taylor con {n} términos es: {aproximación}")
 #### Comprobacion
+Solicita al usuario el valor de a, el punto de aproximación x(0) (que en este caso se fija en 0 para la serie de Maclaurin) y el número de términos n para la aproximación.
+
+El resultado arrojado es la aproximación de f(a) utilizando la serie de Taylor con n términos alrededor del punto x(0). Este valor se calcula utilizando los términos de la serie de Taylor hasta el n-ésimo término. Dependiendo del valor de n y de la diferencia entre a y x(0), esta aproximación puede ser más precisa cuanto mayor sea el valor de n.
+
 [![imagen-2024-05-23-122533417.png](https://i.postimg.cc/0jwpb8sy/imagen-2024-05-23-122533417.png)](https://postimg.cc/LgmqWF5c)
