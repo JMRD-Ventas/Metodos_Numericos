@@ -47,6 +47,7 @@ Una de las principales ventajas del método de Taylor es que proporciona una sol
 
 El método de Taylor es adecuado para EDOs de orden superior cuando se conocen las condiciones iniciales de todas las derivadas hasta el orden n-1. Para EDOs de primer orden, otros métodos como Euler o Runge-Kutta suelen ser más eficientes.
 
+## Indice
 - [Metodo Teylor](Método_de_Taylor/Readme.md)
   - [Ejercicio 1.py](Método_de_Taylor/Ejercicio_1.py)
   - [Ejercicio 2.py](Método_de_Taylor/Ejercicio_2.py)
