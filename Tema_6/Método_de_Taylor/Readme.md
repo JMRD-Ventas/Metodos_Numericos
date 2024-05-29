@@ -74,6 +74,7 @@ El resultado impreso es la aproximación de e^x usando la serie de Taylor con el
 
 Por ejemplo, si ingresamos 
 a = 3 y n = 4, la salida podría ser algo así:
+
 [![imagen-2024-05-23-122006934.png](https://i.postimg.cc/KYGjM9mS/imagen-2024-05-23-122006934.png)](https://postimg.cc/FY6htVfD)
 
 
@@ -125,6 +126,7 @@ El resultado impreso es la aproximación de sen(x) usando la serie de Taylor con
 
 Por ejemplo, si ingresamos 
 a = 3 y n = 6, la salida podría ser algo así:
+
 [![imagen-2024-05-23-122224949.png](https://i.postimg.cc/59Tg1rVt/imagen-2024-05-23-122224949.png)](https://postimg.cc/SjLCfDj0)
 
 
@@ -177,6 +179,7 @@ El resultado impreso es la aproximación de sen(x) usando la serie de Taylor con
 
 Por ejemplo, si ingresamos 
 a = 6 y n = 7, la salida podría ser algo así:
+
 [![imagen-2024-05-23-122404912.png](https://i.postimg.cc/FHQxkJ15/imagen-2024-05-23-122404912.png)](https://postimg.cc/1fJFLXpJ)
 
 
@@ -221,6 +224,7 @@ El resultado impreso es la aproximación de ln(1 + a) usando la serie de Taylor 
 
 Por ejemplo, si ingresamos 
 a = 10 y n = 7, la salida podría ser algo así:
+
 [![imagen-2024-05-23-122451557.png](https://i.postimg.cc/MG6bd2y9/imagen-2024-05-23-122451557.png)](https://postimg.cc/ZWQd5QsN)
 
 ### Ejercicio 5.py
