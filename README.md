@@ -49,9 +49,25 @@ Las ecuaciones diferenciales son vitales en la descripción del cambio en sistem
 ## Indice
 1. [Descripcion](Tema_6/Readme.md)
 2. [Metodo de Euler](Tema_6/Método_de_Euler/Readme.md)
-   2.2. [Ejercicio 1.py](Tema_6/Método_de_Euler/Ejercicio_1.py)
-   2.3. [Ejercicio 2.py](Tema_6/Método_de_Euler/Ejercicio_2.py)
+   - [Ejercicio 1.py](Tema_6/Método_de_Euler/Ejercicio_1.py)
+   - [Ejercicio 2.py](Tema_6/Método_de_Euler/Ejercicio_2.py)
+   - [Ejercicio 3.py](Tema_6/Método_de_Euler/Ejercicio_3.py)
+   - [Ejercicio 4.py](Tema_6/Método_de_Euler/Ejercicio_4.py)
+   - [Ejercicio 5.py](Tema_6/Método_de_Euler/Ejercicio_5.py)
 
 4. [Metodo Runge-Kutta](Tema_6/Método_de_Runge-Kutta/Readme.md)
-5. [Metodo Teylor](Tema_6/Método_de_Taylor/Readme.md)
+   - [Ejercicio 1.py](Tema_6/Método_de_Runge-Kutta/Ejercicio_1.py)
+   - [Ejercicio 1.py](Tema_6/Método_de_Runge-Kutta/Ejercicio_2.py)
+   - [Ejercicio 1.py](Tema_6/Método_de_Runge-Kutta/Ejercicio_3.py)
+   - [Ejercicio 1.py](Tema_6/Método_de_Runge-Kutta/Ejercicio_4.py)
+   - [Ejercicio 1.py](Tema_6/Método_de_Runge-Kutta/Ejercicio_5.py)
+   
+6. [Metodo Teylor](Tema_6/Método_de_Taylor/Readme.md)
+   - [Ejercicio 1.py](Tema_6/Método_de_Taylor/Ejercicio_1.py)
+   - [Ejercicio 2.py](Tema_6/Método_de_Taylor/Ejercicio_2.py)
+   - [Ejercicio 3.py](Tema_6/Método_de_Taylor/Ejercicio_3.py)
+   - [Ejercicio 4.py](Tema_6/Método_de_Taylor/Ejercicio_4.py)
+   - [Ejercicio 5.py](Tema_6/Método_de_Taylor/Ejercicio_2.py)
+
+
 
