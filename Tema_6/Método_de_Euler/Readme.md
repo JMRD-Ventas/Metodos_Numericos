@@ -82,6 +82,9 @@ El resultado del ejemplo es una tabla de valores de "t" y "y" que representa la 
   
 [![imagen-2024-05-23-100443131.png](https://i.postimg.cc/bYnjTQCZ/imagen-2024-05-23-100443131.png)](https://postimg.cc/7bqcPTy4)
 
+[Ejercicio 1.py](Tema_6/Método_de_Euler/Ejercicio_1.py)
+
+
 ### Ejercicio 2.py
 #### Codigo
 En el ejemplo, se resuelve la EDO dy/dt = t * y con condición inicial y(0) = 1 desde t = 0 hasta t = 4 usando 90 pasos:
@@ -139,6 +142,8 @@ La ecuación dy/dt = t * y tiene una solución analítica conocida y = e^(t^2/2)
       
 [![imagen-2024-05-23-100537150.png](https://i.postimg.cc/c4NG5r2X/imagen-2024-05-23-100537150.png)](https://postimg.cc/bdL5ZNzt)
 
+[Ejercicio 2.py](Tema_6/Método_de_Euler/Ejercicio_2.py)
+
 ### Ejercicio 3.py
 #### Codigo    
 En el ejemplo, se resuelve la EDO dy/dt = -2y con condición inicial y(0) = 1 desde t = 0 hasta t = 5 usando 25 pasos:
@@ -190,6 +195,8 @@ En el ejemplo, se resuelve la EDO dy/dt = -2y con condición inicial y(0) = 1 de
 En esta salida, se puede observar cómo el valor de y decrece exponencialmente conforme t aumenta, lo cual es consistente con la solución de la ecuación diferencial dy/dt = -2y. La solución exacta de esta ecuación diferencial con la condición inicial y(0) = 1 es y(t) = e^(-2t), y el método de Euler aproxima esta solución.
       
 [![imagen-2024-05-23-100625349.png](https://i.postimg.cc/Ls5cZfg6/imagen-2024-05-23-100625349.png)](https://postimg.cc/R3rskWTj)
+
+[Ejercicio 3.py](Tema_6/Método_de_Euler/Ejercicio_3.py)
 
 ### Ejercicio 4.py
 #### Codigo
@@ -244,6 +251,8 @@ Se observa que los valores de y crecen rápidamente, lo que indica que la soluci
       
 [![imagen-2024-05-23-100724206.png](https://i.postimg.cc/brxWj9WL/imagen-2024-05-23-100724206.png)](https://postimg.cc/xNdtvM0b)
 
+[Ejercicio 4.py](Tema_6/Método_de_Euler/Ejercicio_4.py)
+
 ### Ejercicio 5.py
 #### Codigo
 En el ejemplo, se resuelve la EDO dy/dt = 4t^3 - 6y con condición inicial y(0) = 1 desde t(0) = 0 hasta t_final = 3 usando 41 pasos:
@@ -295,3 +304,5 @@ En el ejemplo, se resuelve la EDO dy/dt = 4t^3 - 6y con condición inicial y(0) 
 El código imprimirá los valores de t y los correspondientes valores aproximados de y calculados mediante el método de Euler. El intervalo de t es de 0 a 3, dividido en 41 pasos (por lo tanto, con un tamaño de paso h de 0.07317). Cada fila de la salida contiene un valor de t y el valor aproximado de y en ese punto, formateados con dos decimales para t y cuatro decimales para y.
       
 [![imagen-2024-05-23-100811985.png](https://i.postimg.cc/nhc567kY/imagen-2024-05-23-100811985.png)](https://postimg.cc/0bFcSzhb)
+
+[Ejercicio 5.py](Tema_6/Método_de_Euler/Ejercicio_5.py)
