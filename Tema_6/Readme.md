@@ -8,6 +8,10 @@ En esencia, el método de Euler utiliza una aproximación de la derivada utiliza
 ## Indice
 - [Metodo de Euler](Método_de_Euler/Readme.md)
   - [Ejercicio 1.py](Método_de_Euler/Ejercicio_1.py)
+  - [Ejercicio 2.py](Método_de_Euler/Ejercicio_2.py)
+  - [Ejercicio 3.py](Método_de_Euler/Ejercicio_3.py)
+  - [Ejercicio 4.py](Método_de_Euler/Ejercicio_4.py)
+  - [Ejercicio 5.py](Método_de_Euler/Ejercicio_5.py)
 
 ------------
 
@@ -20,6 +24,11 @@ El método de Runge-Kutta se basa en evaluar la pendiente (derivada) en varios p
 
 ## Indice
 - [Metodo Runge-Kutta](Método_de_Runge-Kutta/Readme.md)
+  - [Ejercicio 1.py](Método_de_Runge-Kutta/Ejercicio_1.py)
+  - [Ejercicio 2.py](Método_de_Runge-Kutta/Ejercicio_2.py)
+  - [Ejercicio 3.py](Método_de_Runge-Kutta/Ejercicio_3.py)
+  - [Ejercicio 4.py](Método_de_Runge-Kutta/Ejercicio_4.py)
+  - [Ejercicio 5.py](Método_de_Runge-Kutta/Ejercicio_5.py)
 ------------
 
 # Método_de_Taylor
