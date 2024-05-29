@@ -29,6 +29,7 @@ El método de Runge-Kutta se basa en evaluar la pendiente (derivada) en varios p
   - [Ejercicio 3.py](Método_de_Runge-Kutta/Ejercicio_3.py)
   - [Ejercicio 4.py](Método_de_Runge-Kutta/Ejercicio_4.py)
   - [Ejercicio 5.py](Método_de_Runge-Kutta/Ejercicio_5.py)
+    
 ------------
 
 # Método_de_Taylor
@@ -47,5 +48,10 @@ Una de las principales ventajas del método de Taylor es que proporciona una sol
 El método de Taylor es adecuado para EDOs de orden superior cuando se conocen las condiciones iniciales de todas las derivadas hasta el orden n-1. Para EDOs de primer orden, otros métodos como Euler o Runge-Kutta suelen ser más eficientes.
 
 - [Metodo Teylor](Método_de_Taylor/Readme.md)
+  - [Ejercicio 1.py](Método_de_Taylor/Ejercicio_1.py)
+  - [Ejercicio 2.py](Método_de_Taylor/Ejercicio_2.py)
+  - [Ejercicio 3.py](Método_de_Taylor/Ejercicio_3.py)
+  - [Ejercicio 4.py](Método_de_Taylor/Ejercicio_4.py)
+  - [Ejercicio 5.py](Método_de_Taylor/Ejercicio_5.py)
 
 
