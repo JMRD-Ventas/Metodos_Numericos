@@ -295,6 +295,3 @@ En el ejemplo, se resuelve la EDO dy/dt = 4t^3 - 6y con condición inicial y(0) 
 El código imprimirá los valores de t y los correspondientes valores aproximados de y calculados mediante el método de Euler. El intervalo de t es de 0 a 3, dividido en 41 pasos (por lo tanto, con un tamaño de paso h de 0.07317). Cada fila de la salida contiene un valor de t y el valor aproximado de y en ese punto, formateados con dos decimales para t y cuatro decimales para y.
       
 [![imagen-2024-05-23-100811985.png](https://i.postimg.cc/nhc567kY/imagen-2024-05-23-100811985.png)](https://postimg.cc/0bFcSzhb)
-
-
-[Hoja de cálculo sin título - Medidos.pdf](https://github.com/Gh-JMZM25/Metodos_Numericos/files/15477427/Hoja.de.calculo.sin.titulo.-.Medidos.pdf)
