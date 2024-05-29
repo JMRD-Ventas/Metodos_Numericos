@@ -32,7 +32,7 @@ Es importante tener en cuenta que este pseudocódigo asume que la ecuación dife
 
 ### Ejercicio 1.py
 #### Codigo
-En el ejemplo, se resuelve la ODE dy/dt = y con condición inicial y(0) = 1 desde t = 0 hasta t = 2 usando 10 pasos:
+En el ejemplo, se resuelve la EDO dy/dt = y con condición inicial y(0) = 1 desde t = 0 hasta t = 2 usando 10 pasos:
     
             def euler(f, y0, t0, t_final, n):
                 h = (t_final - t0) / n  # Tamaño del paso
@@ -63,19 +63,13 @@ En el ejemplo, se resuelve la ODE dy/dt = y con condición inicial y(0) = 1 desd
                 print(f"{t_val:.2f}\t{y_val:.4f}")
 
 #### Ejecución
-El resultado del ejemplo es una tabla de valores de "t" y "y" que representa la solución aproximada de la ODE en el intervalo [0,2] usando el método de Euler con 10 pasos. La salida se vería algo así:
+El resultado del ejemplo es una tabla de valores de "t" y "y" que representa la solución aproximada de la EDO en el intervalo [0,2] usando el método de Euler con 10 pasos. La salida se vería algo así:
   
 [![imagen-2024-05-23-100443131.png](https://i.postimg.cc/bYnjTQCZ/imagen-2024-05-23-100443131.png)](https://postimg.cc/7bqcPTy4)
 
 ### Ejercicio 2.py
 #### Codigo
-Resuelve una ecuación diferencial usando el método de Euler.
-- Argumentos:
-    - f función que define la ecuación diferencial (dy/dt = f(t, y))
-    - y0: condición inicial para y, 1.
-    - t0: valor inicial de t, 0.
-    - t_final: valor final de t, 4.
-    - n: número de pasos, 90.
+En el ejemplo, se resuelve la EDO dy/dt = y con condición inicial y(0) = 1 desde t = 0 hasta t = 4 usando 90 pasos:
 
             import numpy as np
             import matplotlib.pyplot as plt
@@ -111,9 +105,9 @@ Resuelve una ecuación diferencial usando el método de Euler.
             plt.show()
     
 #### Ejecución
-- Retorna:
-    - t: lista de valores de "t"
-    - y: lista de valores de "y" correspondientes a los valores de "t"
+El resultado es una gráfica que muestra la solución de la ecuación diferencial dy/dt = t * y con la condición inicial y(0) = 1. El método de Euler aproxima esta solución en el intervalo de t = 0 a t = 4 usando 90 pasos. La gráfica ilustra cómo `y` evoluciona con respecto a `t` según la EDO definida.
+
+La ecuación dy/dt = t * y tiene una solución analítica conocida y = e^(t^2/2), que se puede usar para comparar la precisión de la solución numérica obtenida mediante el método de Euler.
       
 [![imagen-2024-05-23-100537150.png](https://i.postimg.cc/c4NG5r2X/imagen-2024-05-23-100537150.png)](https://postimg.cc/bdL5ZNzt)
 
