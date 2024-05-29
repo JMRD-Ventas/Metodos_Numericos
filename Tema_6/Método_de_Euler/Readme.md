@@ -1,5 +1,10 @@
 # Metodo de Euler
 
+## Codigos.
+[Ejercicio 1.py](Ejercicio_1.py)
+
+
+
 ## Explicación del pseudocódigo:
 1. Se toman como entrada la función f(x, y) que define la ecuación diferencial, los valores iniciales x0 y y0, el valor final xn y el número de subintervalos n.
 2. Se calcula el tamaño del paso h dividiendo el intervalo [x0, xn] en n subintervalos iguales.
@@ -29,8 +34,6 @@ Es importante tener en cuenta que este pseudocódigo asume que la ecuación dife
     SALIDA: y (aproximación de la solución en xn)
 
 ## Implementación de los codigos en Python
-
-
 ### Ejercicio 1.py
 #### Codigo
 En el ejemplo, se resuelve la EDO dy/dt = y con condición inicial y(0) = 1 desde t = 0 hasta t = 2 usando 10 pasos:
@@ -81,8 +84,6 @@ En el ejemplo, se resuelve la EDO dy/dt = y con condición inicial y(0) = 1 desd
 El resultado del ejemplo es una tabla de valores de "t" y "y" que representa la solución aproximada de la EDO en el intervalo [0,2] usando el método de Euler con 10 pasos. La salida se vería algo así:
   
 [![imagen-2024-05-23-100443131.png](https://i.postimg.cc/bYnjTQCZ/imagen-2024-05-23-100443131.png)](https://postimg.cc/7bqcPTy4)
-
-[Ejercicio 1.py](Tema_6/Método_de_Euler/Ejercicio_1.py)
 
 ### Ejercicio 2.py
 #### Codigo
