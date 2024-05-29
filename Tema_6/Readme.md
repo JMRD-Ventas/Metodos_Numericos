@@ -7,6 +7,7 @@ En esencia, el método de Euler utiliza una aproximación de la derivada utiliza
 
 ## Indice
 - [Metodo de Euler](Método_de_Euler/Readme.md)
+  - [Ejercicio 1.py](Método_de_Euler/Ejercicio_1.py)
 
 ------------
 
