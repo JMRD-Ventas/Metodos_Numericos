@@ -32,13 +32,7 @@ Es importante tener en cuenta que este pseudocódigo asume que la ecuación dife
 
 ### Ejercicio 1.py
 #### Codigo
-Resuelve una ecuación diferencial usando el método de Euler.
-- Argumentos:
-    - f función que define la ecuación diferencial (dy/dt = f(t, y))
-    - y0: condición inicial para y, 1.
-    - t0: valor inicial de t, 0.
-    - t_final: valor final de t, 2.
-    - n: número de pasos, 10.
+En el ejemplo, se resuelve la ODE dy/dt = y con condición inicial y(0) = 1 desde t = 0 hasta t = 2 usando 10 pasos:
     
             def euler(f, y0, t0, t_final, n):
                 h = (t_final - t0) / n  # Tamaño del paso
@@ -69,9 +63,7 @@ Resuelve una ecuación diferencial usando el método de Euler.
                 print(f"{t_val:.2f}\t{y_val:.4f}")
 
 #### Ejecución
-- Retorna:
-    - t: lista de valores de "t"
-    - y: lista de valores de "y" correspondientes a los valores de "t"
+El resultado del ejemplo es una tabla de valores de "t" y "y" que representa la solución aproximada de la ODE en el intervalo [0,2] usando el método de Euler con 10 pasos. La salida se vería algo así:
   
 [![imagen-2024-05-23-100443131.png](https://i.postimg.cc/bYnjTQCZ/imagen-2024-05-23-100443131.png)](https://postimg.cc/7bqcPTy4)
 
