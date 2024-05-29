@@ -34,33 +34,47 @@ Es importante tener en cuenta que este pseudocódigo asume que la ecuación dife
 #### Codigo
 En el ejemplo, se resuelve la EDO dy/dt = y con condición inicial y(0) = 1 desde t = 0 hasta t = 2 usando 10 pasos:
     
-            def euler(f, y0, t0, t_final, n):
-                h = (t_final - t0) / n  # Tamaño del paso
-                t = [t0]
-                y = [y0]
-            
-                for i in range(n):
-                    y_nuevo = y[-1] + h * f(t[-1], y[-1])
-                    t_nuevo = t[-1] + h
-                    t.append(t_nuevo)
-                    y.append(y_nuevo)
-            
-                return t, y
-            
-            # Ejemplo de uso
-            def ecuacion_diferencial(t, y):
-                return y  # dy/dt = y (ecuación diferencial a resolver)
-            
-            y0 = 1  # Condición inicial
-            t0 = 0  # Valor inicial de t
-            t_final = 2  # Valor final de t
-            n = 10  # Número de pasos
-            
-            t, y = euler(ecuacion_diferencial, y0, t0, t_final, n)
-            
-            print("t\ty")
-            for t_val, y_val in zip(t, y):
-                print(f"{t_val:.2f}\t{y_val:.4f}")
+    def euler(f, y0, t0, t_final, n):
+        """
+        Resuelve una ecuación diferencial usando el método de Euler.
+    
+        Argumentos:
+        f -- función que define la ecuación diferencial (dy/dt = f(t, y))
+        y0 -- condición inicial para y
+        t0 -- valor inicial de t
+        t_final -- valor final de t
+        n -- número de pasos
+    
+        Retorna:
+        t -- lista de valores de t
+        y -- lista de valores de y correspondientes a los valores de t
+        """
+        h = (t_final - t0) / n  # Tamaño del paso
+        t = [t0]
+        y = [y0]
+    
+        for i in range(n):
+            y_nuevo = y[-1] + h * f(t[-1], y[-1])
+            t_nuevo = t[-1] + h
+            t.append(t_nuevo)
+            y.append(y_nuevo)
+    
+        return t, y
+    
+    # Ejemplo de uso
+    def ecuacion_diferencial(t, y):
+        return y  # dy/dt = y (ecuación diferencial a resolver)
+    
+    y0 = 1  # Condición inicial
+    t0 = 0  # Valor inicial de t
+    t_final = 2  # Valor final de t
+    n = 10  # Número de pasos
+    
+    t, y = euler(ecuacion_diferencial, y0, t0, t_final, n)
+    
+    print("t\ty")
+    for t_val, y_val in zip(t, y):
+        print(f"{t_val:.2f}\t{y_val:.4f}")
 
 #### Ejecución
 El resultado del ejemplo es una tabla de valores de "t" y "y" que representa la solución aproximada de la EDO en el intervalo [0,2] usando el método de Euler con 10 pasos. La salida se vería algo así:
@@ -71,38 +85,51 @@ El resultado del ejemplo es una tabla de valores de "t" y "y" que representa la 
 #### Codigo
 En el ejemplo, se resuelve la EDO dy/dt = t * y con condición inicial y(0) = 1 desde t = 0 hasta t = 4 usando 90 pasos:
 
-            import numpy as np
-            import matplotlib.pyplot as plt
-            
-            def euler(f, y0, t0, t_final, n):
-      
-                h = (t_final - t0) / n  # Tamaño del paso
-                t = np.linspace(t0, t_final, n + 1)
-                y = np.zeros_like(t)
-                y[0] = y0
-            
-                for i in range(n):
-                    y[i + 1] = y[i] + h * f(t[i], y[i])
-            
-                return t, y
-            
-            # Ejemplo de uso
-            def ecuacion_diferencial(t, y):
-                return t * y  # dy/dt = t * y (ecuación diferencial a resolver)
-            
-            y0 = 1  # Condición inicial
-            t0 = 0  # Valor inicial de t
-            t_final = 4  # Valor final de t
-            n = 90  # Número de pasos
-            
-            t, y = euler(ecuacion_diferencial, y0, t0, t_final, n)
-            
-            # Graficar la solución
-            plt.plot(t, y)
-            plt.xlabel('t')
-            plt.ylabel('y')
-            plt.title('Solución de la ecuación diferencial dy/dt = t * y')
-            plt.show()
+    import numpy as np
+    import matplotlib.pyplot as plt
+    
+    def euler(f, y0, t0, t_final, n):
+        """
+        Resuelve una ecuación diferencial usando el método de Euler.
+    
+        Argumentos:
+        f -- función que define la ecuación diferencial (dy/dt = f(t, y))
+        y0 -- condición inicial para y
+        t0 -- valor inicial de t
+        t_final -- valor final de t
+        n -- número de pasos
+    
+        Retorna:
+        t -- arreglo de valores de t
+        y -- arreglo de valores de y correspondientes a los valores de t
+        """
+        h = (t_final - t0) / n  # Tamaño del paso
+        t = np.linspace(t0, t_final, n + 1)
+        y = np.zeros_like(t)
+        y[0] = y0
+    
+        for i in range(n):
+            y[i + 1] = y[i] + h * f(t[i], y[i])
+    
+        return t, y
+    
+    # Ejemplo de uso
+    def ecuacion_diferencial(t, y):
+        return t * y  # dy/dt = t * y (ecuación diferencial a resolver)
+    
+    y0 = 1  # Condición inicial
+    t0 = 0  # Valor inicial de t
+    t_final = 4  # Valor final de t
+    n = 90  # Número de pasos
+    
+    t, y = euler(ecuacion_diferencial, y0, t0, t_final, n)
+    
+    # Graficar la solución
+    plt.plot(t, y)
+    plt.xlabel('t')
+    plt.ylabel('y')
+    plt.title('Solución de la ecuación diferencial dy/dt = t * y')
+    plt.show()
     
 #### Ejecución
 El resultado es una gráfica que muestra la solución de la ecuación diferencial dy/dt = t * y con la condición inicial y(0) = 1. El método de Euler aproxima esta solución en el intervalo de t = 0 a t = 4 usando 90 pasos. La gráfica ilustra cómo `y` evoluciona con respecto a `t` según la EDO definida.
@@ -115,35 +142,48 @@ La ecuación dy/dt = t * y tiene una solución analítica conocida y = e^(t^2/2)
 #### Codigo    
 En el ejemplo, se resuelve la EDO dy/dt = -2y con condición inicial y(0) = 1 desde t = 0 hasta t = 5 usando 25 pasos:
 
-            def euler(f, y0, t0, t_final, n):
-            
-                h = (t_final - t0) / n  # Tamaño del paso
-                t = [t0]
-                y = [y0]
-            
-                for i in range(n):
-                    y_nuevo = y[-1] + h * f(t[-1], y[-1])
-                    t_nuevo = t[-1] + h
-                    t.append(t_nuevo)
-                    y.append(y_nuevo)
-            
-                return t, y
-            
-            # Ejemplo de uso
-            def ecuacion_diferencial(t, y):
-                return -2 * y  # dy/dt = -2y (ecuación diferencial a resolver)
-            
-            y0 = 1  # Condición inicial
-            t0 = 0  # Valor inicial de t
-            t_final = 5  # Valor final de t
-            n = 25  # Número de pasos
-            
-            t, y = euler(ecuacion_diferencial, y0, t0, t_final, n)
-            
-            # Imprimir resultados
-            print("t\ty")
-            for t_val, y_val in zip(t, y):
-                print(f"{t_val:.2f}\t{y_val:.4f}")
+        def euler(f, y0, t0, t_final, n):
+        """
+        Resuelve una ecuación diferencial usando el método de Euler.
+    
+        Argumentos:
+        f -- función que define la ecuación diferencial (dy/dt = f(t, y))
+        y0 -- condición inicial para y
+        t0 -- valor inicial de t
+        t_final -- valor final de t
+        n -- número de pasos
+    
+        Retorna:
+        t -- lista de valores de t
+        y -- lista de valores de y correspondientes a los valores de t
+        """
+        h = (t_final - t0) / n  # Tamaño del paso
+        t = [t0]
+        y = [y0]
+    
+        for i in range(n):
+            y_nuevo = y[-1] + h * f(t[-1], y[-1])
+            t_nuevo = t[-1] + h
+            t.append(t_nuevo)
+            y.append(y_nuevo)
+    
+        return t, y
+    
+    # Ejemplo de uso
+    def ecuacion_diferencial(t, y):
+        return -2 * y  # dy/dt = -2y (ecuación diferencial a resolver)
+    
+    y0 = 1  # Condición inicial
+    t0 = 0  # Valor inicial de t
+    t_final = 5  # Valor final de t
+    n = 25  # Número de pasos
+    
+    t, y = euler(ecuacion_diferencial, y0, t0, t_final, n)
+    
+    # Imprimir resultados
+    print("t\ty")
+    for t_val, y_val in zip(t, y):
+        print(f"{t_val:.2f}\t{y_val:.4f}")
         
 #### Ejecución
 En esta salida, se puede observar cómo el valor de y decrece exponencialmente conforme t aumenta, lo cual es consistente con la solución de la ecuación diferencial dy/dt = -2y. La solución exacta de esta ecuación diferencial con la condición inicial y(0) = 1 es y(t) = e^(-2t), y el método de Euler aproxima esta solución.
@@ -154,36 +194,48 @@ En esta salida, se puede observar cómo el valor de y decrece exponencialmente c
 #### Codigo
 En el ejemplo, se resuelve la EDO dy/dt = y^2 + t^2 con condición inicial y(0) = 1 desde t(0) = 0 hasta t_final = 6 usando 10 pasos:
 
-
-            def euler(f, y0, t0, t_final, n):
-        
-                h = (t_final - t0) / n  # Tamaño del paso
-                t = [t0]
-                y = [y0]
-            
-                for i in range(n):
-                    y_nuevo = y[-1] + h * f(t[-1], y[-1])
-                    t_nuevo = t[-1] + h
-                    t.append(t_nuevo)
-                    y.append(y_nuevo)
-            
-                return t, y
-            
-            # Ejemplo de uso
-            def ecuacion_diferencial(t, y):
-                return y**2 + t**2  # dy/dt = y^2 + t^2 (ecuación diferencial a resolver)
-            
-            y0 = 1  # Condición inicial
-            t0 = 0  # Valor inicial de t
-            t_final = 6  # Valor final de t
-            n = 10  # Número de pasos
-            
-            t, y = euler(ecuacion_diferencial, y0, t0, t_final, n)
-            
-            # Imprimir resultados
-            print("t\ty")
-            for t_val, y_val in zip(t, y):
-                print(f"{t_val:.2f}\t{y_val:.4f}")
+    def euler(f, y0, t0, t_final, n):
+        """
+        Resuelve una ecuación diferencial usando el método de Euler.
+    
+        Argumentos:
+        f -- función que define la ecuación diferencial (dy/dt = f(t, y))
+        y0 -- condición inicial para y
+        t0 -- valor inicial de t
+        t_final -- valor final de t
+        n -- número de pasos
+    
+        Retorna:
+        t -- lista de valores de t
+        y -- lista de valores de y correspondientes a los valores de t
+        """
+        h = (t_final - t0) / n  # Tamaño del paso
+        t = [t0]
+        y = [y0]
+    
+        for i in range(n):
+            y_nuevo = y[-1] + h * f(t[-1], y[-1])
+            t_nuevo = t[-1] + h
+            t.append(t_nuevo)
+            y.append(y_nuevo)
+    
+        return t, y
+    
+    # Ejemplo de uso
+    def ecuacion_diferencial(t, y):
+        return y**2 + t**2  # dy/dt = y^2 + t^2 (ecuación diferencial a resolver)
+    
+    y0 = 1  # Condición inicial
+    t0 = 0  # Valor inicial de t
+    t_final = 6  # Valor final de t
+    n = 10  # Número de pasos
+    
+    t, y = euler(ecuacion_diferencial, y0, t0, t_final, n)
+    
+    # Imprimir resultados
+    print("t\ty")
+    for t_val, y_val in zip(t, y):
+        print(f"{t_val:.2f}\t{y_val:.4f}")
         
 #### Ejecución
 La tabla muestra cómo "y" cambia con respecto a "t" desde t(0) hasta t_final = 6 usando 10 pasos.
@@ -197,46 +249,46 @@ En el ejemplo, se resuelve la EDO dy/dt = 4t^3 - 6y con condición inicial y(0) 
 
     import numpy as np
     
-            def euler(f, y0, t0, t_final, n):
-                """
-                Resuelve una ecuación diferencial usando el método de Euler.
-            
-                Argumentos:
-                f -- función que define la ecuación diferencial (dy/dt = f(t, y))
-                y0 -- condición inicial para y
-                t0 -- valor inicial de t
-                t_final -- valor final de t
-                n -- número de pasos
-            
-                Retorna:
-                t -- arreglo de valores de t
-                y -- arreglo de valores de y correspondientes a los valores de t
-                """
-                h = (t_final - t0) / n  # Tamaño del paso
-                t = np.linspace(t0, t_final, n + 1)
-                y = np.zeros_like(t)
-                y[0] = y0
-            
-                for i in range(n):
-                    y[i + 1] = y[i] + h * f(t[i], y[i])
-            
-                return t, y
-            
-            # Ejemplo de uso
-            def ecuacion_diferencial(t, y):
-                return 4 * t**3 - 6 * y  # dy/dt = 4t^3 - 6y (ecuación diferencial a resolver)
-            
-            y0 = 1  # Condición inicial
-            t0 = 0  # Valor inicial de t
-            t_final = 3  # Valor final de t
-            n = 41  # Número de pasos
-            
-            t, y = euler(ecuacion_diferencial, y0, t0, t_final, n)
-            
-            # Imprimir resultados
-            print("t\ty")
-            for t_val, y_val in zip(t, y):
-                print(f"{t_val:.2f}\t{y_val:.4f}")
+    def euler(f, y0, t0, t_final, n):
+        """
+        Resuelve una ecuación diferencial usando el método de Euler.
+    
+        Argumentos:
+        f -- función que define la ecuación diferencial (dy/dt = f(t, y))
+        y0 -- condición inicial para y
+        t0 -- valor inicial de t
+        t_final -- valor final de t
+        n -- número de pasos
+    
+        Retorna:
+        t -- arreglo de valores de t
+        y -- arreglo de valores de y correspondientes a los valores de t
+        """
+        h = (t_final - t0) / n  # Tamaño del paso
+        t = np.linspace(t0, t_final, n + 1)
+        y = np.zeros_like(t)
+        y[0] = y0
+    
+        for i in range(n):
+            y[i + 1] = y[i] + h * f(t[i], y[i])
+    
+        return t, y
+    
+    # Ejemplo de uso
+    def ecuacion_diferencial(t, y):
+        return 4 * t**3 - 6 * y  # dy/dt = 4t^3 - 6y (ecuación diferencial a resolver)
+    
+    y0 = 1  # Condición inicial
+    t0 = 0  # Valor inicial de t
+    t_final = 3  # Valor final de t
+    n = 41  # Número de pasos
+    
+    t, y = euler(ecuacion_diferencial, y0, t0, t_final, n)
+    
+    # Imprimir resultados
+    print("t\ty")
+    for t_val, y_val in zip(t, y):
+        print(f"{t_val:.2f}\t{y_val:.4f}")
       
 #### Ejecución
 El código imprimirá los valores de t y los correspondientes valores aproximados de y calculados mediante el método de Euler. El intervalo de t es de 0 a 3, dividido en 41 pasos (por lo tanto, con un tamaño de paso h de 0.07317). Cada fila de la salida contiene un valor de t y el valor aproximado de y en ese punto, formateados con dos decimales para t y cuatro decimales para y.
