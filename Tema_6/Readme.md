@@ -18,7 +18,7 @@ El método de Runge-Kutta es un método numérico utilizado para resolver ecuaci
 El método de Runge-Kutta se basa en evaluar la pendiente (derivada) en varios puntos dentro de un intervalo small y combinar estas evaluaciones para obtener una mejor aproximación de la solución. Existen varios órdenes del método de Runge-Kutta, siendo el de cuarto orden (RK4) uno de los más utilizados debido a su buen equilibrio entre precisión y eficiencia computacional.
 
 ## Indice
-- [Metodo Runge-Kutta](Metodos_Numericos/Tema_6/Método_de_Runge-Kutta/)
+- [Metodo Runge-Kutta](Método_de_Runge-Kutta/Readme.md)
 ------------
 
 # Método_de_Taylor
@@ -36,6 +36,6 @@ Una de las principales ventajas del método de Taylor es que proporciona una sol
 
 El método de Taylor es adecuado para EDOs de orden superior cuando se conocen las condiciones iniciales de todas las derivadas hasta el orden n-1. Para EDOs de primer orden, otros métodos como Euler o Runge-Kutta suelen ser más eficientes.
 
-- [Metodo Teylor](Metodos_Numericos/Tema_6/Método_de_Taylor/)
+- [Metodo Teylor](Método_de_Taylor/Readme.md)
 
 
