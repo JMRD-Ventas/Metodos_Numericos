@@ -1,4 +1,4 @@
-# Metodo de Eulerd
+# Metodo de Euler
 
 ## Explicación del pseudocódigo:
 1. Se toman como entrada la función f(x, y) que define la ecuación diferencial, los valores iniciales x0 y y0, el valor final xn y el número de subintervalos n.
