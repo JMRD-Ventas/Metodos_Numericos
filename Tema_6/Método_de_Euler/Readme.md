@@ -80,10 +80,10 @@ En el ejemplo, se resuelve la EDO dy/dt = y con condición inicial y(0) = 1 desd
 #### Ejecución
 El resultado del ejemplo es una tabla de valores de "t" y "y" que representa la solución aproximada de la EDO en el intervalo [0,2] usando el método de Euler con 10 pasos. La salida se vería algo así:
   
-[![imagen-2024-05-23-100443131.png](https://i.postimg.cc/bYnjTQCZ/imagen-2024-05-23-100443131.png)](https://postimg.cc/7bqcPTy4)
+[![imagen-2024-05-23-100443131.png](Tema_6/Método_de_Euler/Ejercicio_1.py)
 
 [Ejercicio 1.py](Tema_6/Método_de_Euler/Ejercicio_1.py)
-
+https://i.postimg.cc/bYnjTQCZ/imagen-2024-05-23-100443131.png)](https://postimg.cc/7bqcPTy4
 
 ### Ejercicio 2.py
 #### Codigo
