@@ -49,6 +49,9 @@ Las ecuaciones diferenciales son vitales en la descripción del cambio en sistem
 ## Indice
 1. [Descripcion](Tema_6/Readme.md)
 2. [Metodo de Euler](Tema_6/Método_de_Euler/Readme.md)
-3. [Metodo Runge-Kutta](Tema_6/Método_de_Runge-Kutta/Readme.md)
-4. [Metodo Teylor](Tema_6/Método_de_Taylor/Readme.md)
+   2.2. [Ejercicio 1.py](Tema_6/Método_de_Euler/Ejercicio_1.py)
+   2.3. [Ejercicio 2.py](Tema_6/Método_de_Euler/Ejercicio_2.py)
+
+4. [Metodo Runge-Kutta](Tema_6/Método_de_Runge-Kutta/Readme.md)
+5. [Metodo Teylor](Tema_6/Método_de_Taylor/Readme.md)
 
