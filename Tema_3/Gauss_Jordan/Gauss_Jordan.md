@@ -40,10 +40,9 @@
  - Si estás buscando la inversa de una matriz, puedes continuar el algoritmo hasta obtener una matriz identidad en el 
   lado izquierdo de la matriz aumentada.
 
-## Implementación de los metodos en excel
-
+## Implementación de los metodos en python
 ### Ejercicio 1
-#### Metodologia del codigo
+#### Metodologia en codigo
 
 ```python
 import numpy as np
@@ -93,7 +92,7 @@ print(result)
 
 
 ### Ejercicio 2
-#### Metodologia del codigo
+#### Metodologia en codigo
 
 ```python
 import numpy as np
@@ -142,7 +141,7 @@ print(result)
 
 
 ### Ejercicio 3
-#### Metodologia del codigo 
+#### Metodologia en codigo
 
 ```python
 import numpy as np
@@ -191,7 +190,7 @@ print(result)
 
 
 ### Ejercicio 4
-#### Metodologia del codigo
+#### Metodologia en codigo
 
 ```python
 import numpy as np
@@ -240,7 +239,7 @@ print(result)
 
 
 ### Ejercicio 5
-#### Metodologia del codigo
+#### Metodologia en codigo
 
 ```python
 import numpy as np
