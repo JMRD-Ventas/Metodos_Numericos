@@ -8,4 +8,4 @@ El método de Jacobi es un método iterativo simple que calcula nuevos valores d
 1. [Metodo de Gauss-Jordan](Gauss_Jordan/Gauss_Jordan.md)
 2. [Metodo de Gauss-Seidel](Gauss_Seidel/Gauss_Seidel.md)
 3. [Metodo de Gauss](Gauss_Simple/Gauss_Simple.md)
-4. [Metodo de Jacobi](Jacob/Jacob.md)
+4. [Metodo de Jacob](Jacob/Jacob.md)
