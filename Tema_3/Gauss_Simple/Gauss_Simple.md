@@ -28,6 +28,9 @@
 ## Implementación de los metodos en python
 ### Ejercicio 1
 #### Metodologia en codigo
+El sistema de ecuaciones que se resuelve es:
+3x + 2x = 1
+x + 2x = 1
 
 ```python
 import numpy as np
@@ -62,9 +65,12 @@ sol = gauss_elimination(A, b)
 print('Solución:', sol)
 
 ```
+Esto significa que:
+x1 = 0
+x2 = 0.5
 
 #### Comprobacion
-[![imagen-2024-05-23-084108570.png](https://i.postimg.cc/y8z4L3qP/imagen-2024-05-23-084108570.png)](https://postimg.cc/MvtFTTpM)
+[![imagen-2024-06-02-174420452.png](https://i.postimg.cc/Ghr29ZGC/imagen-2024-06-02-174420452.png)](https://postimg.cc/V5G1VZKG)
 
 ### Ejercicio 2
 #### Metodologia en codigo
