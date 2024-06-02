@@ -45,33 +45,52 @@
 
 ## Implementación de los metodos en excel
 ### Ejercicio 1
-#### Metodologia
-[![imagen-2024-05-23-084009043.png](https://i.postimg.cc/d10K8MMc/imagen-2024-05-23-084009043.png)](https://postimg.cc/mcKqs52m)
-[![imagen-2024-05-23-084040748.png](https://i.postimg.cc/x8wDDcX9/imagen-2024-05-23-084040748.png)](https://postimg.cc/Mfmr1Z0L)
+#### Metodologia en python
+
+```python
+
+```
+
 #### Comprobacion
 [![imagen-2024-05-23-084108570.png](https://i.postimg.cc/y8z4L3qP/imagen-2024-05-23-084108570.png)](https://postimg.cc/MvtFTTpM)
 
 ### Ejercicio 2
-#### Metodologia
-[![imagen-2024-05-23-084329213.png](https://i.postimg.cc/YCpkpLXS/imagen-2024-05-23-084329213.png)](https://postimg.cc/mt6KjkWx)
+#### Metodologia en python
+
+```python
+
+```
+
 #### Comprobacion
 [![imagen-2024-05-23-084348478.png](https://i.postimg.cc/50FWPBts/imagen-2024-05-23-084348478.png)](https://postimg.cc/0Mx4jJDS)
 
 ### Ejercicio 3
-#### Metodologia   
-[![imagen-2024-05-23-084518735.png](https://i.postimg.cc/7Ywj78Ss/imagen-2024-05-23-084518735.png)](https://postimg.cc/xqpsDZxM)
+#### Metodologia en python
+
+```python
+
+```
+
 #### Comprobacion
 [![imagen-2024-05-23-084553240.png](https://i.postimg.cc/NMRP9pFv/imagen-2024-05-23-084553240.png)](https://postimg.cc/LY6VGkjx)
 
 ### Ejercicio 4
-#### Metodologia
-[![imagen-2024-05-23-084819166.png](https://i.postimg.cc/T2CJkZZH/imagen-2024-05-23-084819166.png)](https://postimg.cc/Hj8MnPWQ)
+#### Metodologia en python
+
+```python
+
+```
+
 #### Comprobacion
 [![imagen-2024-05-23-084833866.png](https://i.postimg.cc/BQzc32ZT/imagen-2024-05-23-084833866.png)](https://postimg.cc/6ydGL2vq)
 
 ### Ejercicio 5
-#### Metodologia
-[![imagen-2024-05-23-085149573.png](https://i.postimg.cc/yNsJCNRh/imagen-2024-05-23-085149573.png)](https://postimg.cc/YvD21Mbj)
+#### Metodologia en python
+
+```python
+
+```
+
 #### Comprobacion
 [![imagen-2024-05-23-085202453.png](https://i.postimg.cc/KYf1Gy76/imagen-2024-05-23-085202453.png)](https://postimg.cc/B88SpkVp)
 
