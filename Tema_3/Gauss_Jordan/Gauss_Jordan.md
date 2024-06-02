@@ -43,14 +43,57 @@
 ## Implementación de los metodos en excel
 
 ### Ejercicio 1
-#### Metodologia
-[![imagen-2024-05-23-082336032.png](https://i.postimg.cc/VktpMfdC/imagen-2024-05-23-082336032.png)](https://postimg.cc/w16wYd5q)
+#### Metodologia del codigo
+
+```python
+import numpy as np
+
+def gauss_jordan(A):
+    # Convertir la matriz a tipo float para realizar divisiones
+    A = A.astype(float)
+    rows, cols = A.shape
+    
+    # Iterar sobre cada columna
+    for i in range(rows):
+        # Hacer 1 el pivote dividiendo toda la fila por el elemento A[i, i]
+        pivot = A[i, i]
+        A[i] = A[i] / pivot
+        print(f"Step {i*2+1}: Make pivot A[{i},{i}] = 1")
+        print(A)
+        
+        # Hacer 0 los elementos en la columna i, excepto el pivote
+        for j in range(rows):
+            if i != j:
+                factor = A[j, i]
+                A[j] = A[j] - factor * A[i]
+        print(f"Step {i*2+2}: Make other elements in column {i} = 0")
+        print(A)
+    
+    return A
+
+# Ejemplo de uso
+# Matriz aumentada para el sistema de ecuaciones 3x3:
+# x + y + z = 6
+# 2y + 5z = -4
+# 2x + 5y - z = 27
+
+A = np.array([
+    [1, 1, 1, 6],
+    [0, 2, 5, -4],
+    [2, 5, -1, 27]
+])
+
+result = gauss_jordan(A)
+print("Final Result:")
+print(result)
+```
+
 #### Comprobacion
 [![imagen-2024-05-23-082428875.png](https://i.postimg.cc/9ftk8LPX/imagen-2024-05-23-082428875.png)](https://postimg.cc/yJxnWXr2)
 
 
 ### Ejercicio 2
-#### Metodologia
+#### Metodologia del codigo
 [![imagen-2024-05-23-082511077.png](https://i.postimg.cc/KvkHSG7H/imagen-2024-05-23-082511077.png)](https://postimg.cc/QHDbcryQ)
 [![imagen-2024-05-23-082600244.png](https://i.postimg.cc/8cFtS4v6/imagen-2024-05-23-082600244.png)](https://postimg.cc/D4TqQqBv)
 #### Comprobacion
@@ -58,7 +101,7 @@
 
 
 ### Ejercicio 3
-#### Metodologia    
+#### Metodologia del codigo 
 [![imagen-2024-05-23-082823677.png](https://i.postimg.cc/cHzBX3z4/imagen-2024-05-23-082823677.png)](https://postimg.cc/R6ct0W9j)
 #### Comprobacion
 ![image](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/158504061/27620fa0-2684-4061-9743-92daf8562ff9)
@@ -66,7 +109,7 @@
 
 
 ### Ejercicio 4
-#### Metodologia
+#### Metodologia del codigo
 [![imagen-2024-05-23-082920988.png](https://i.postimg.cc/RCjj0J0B/imagen-2024-05-23-082920988.png)](https://postimg.cc/CdsvP1DP)
 #### Comprobacion
 [![imagen-2024-05-23-082952948.png](https://i.postimg.cc/dVFp2MdN/imagen-2024-05-23-082952948.png)](https://postimg.cc/hfC2n52V)
@@ -74,7 +117,7 @@
 
 
 ### Ejercicio 5
-#### Metodologia
+#### Metodologia del codigo
 [![imagen-2024-05-23-083243644.png](https://i.postimg.cc/dV0mP4Kt/imagen-2024-05-23-083243644.png)](https://postimg.cc/XpTy9KJT)
 #### Comprobacion
 [![imagen-2024-05-23-083312243.png](https://i.postimg.cc/rpBS4TRK/imagen-2024-05-23-083312243.png)](https://postimg.cc/f3vt46KN)
