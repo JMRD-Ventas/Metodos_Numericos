@@ -94,15 +94,97 @@ print(result)
 
 ### Ejercicio 2
 #### Metodologia del codigo
-[![imagen-2024-05-23-082511077.png](https://i.postimg.cc/KvkHSG7H/imagen-2024-05-23-082511077.png)](https://postimg.cc/QHDbcryQ)
-[![imagen-2024-05-23-082600244.png](https://i.postimg.cc/8cFtS4v6/imagen-2024-05-23-082600244.png)](https://postimg.cc/D4TqQqBv)
+
+```python
+import numpy as np
+
+def gauss_jordan(A):
+    # Convertir la matriz a tipo float para realizar divisiones
+    A = A.astype(float)
+    rows, cols = A.shape
+    
+    # Iterar sobre cada columna
+    for i in range(rows):
+        # Hacer 1 el pivote dividiendo toda la fila por el elemento A[i, i]
+        pivot = A[i, i]
+        A[i] = A[i] / pivot
+        print(f"Step {i*2+1}: Make pivot A[{i},{i}] = 1")
+        print(A)
+        
+        # Hacer 0 los elementos en la columna i, excepto el pivote
+        for j in range(rows):
+            if i != j:
+                factor = A[j, i]
+                A[j] = A[j] - factor * A[i]
+        print(f"Step {i*2+2}: Make other elements in column {i} = 0")
+        print(A)
+    
+    return A
+
+# Ejemplo de uso
+# Matriz aumentada para el sistema de ecuaciones 3x3:
+# 2x + 3y + 6z = 7
+# y + z = 2
+# x + 5y + 2 = 4
+
+A = np.array([
+    [2, 3, 6, 7],
+    [0, 1, 1, 2],
+    [1, 5, 2, 4]
+])
+
+result = gauss_jordan(A)
+print("Final Result:")
+print(result)
+```
 #### Comprobacion
 ![image](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/158504061/23589834-e01e-455d-93fb-742cd106d7f3)
 
 
 ### Ejercicio 3
 #### Metodologia del codigo 
-[![imagen-2024-05-23-082823677.png](https://i.postimg.cc/cHzBX3z4/imagen-2024-05-23-082823677.png)](https://postimg.cc/R6ct0W9j)
+
+```python
+import numpy as np
+
+def gauss_jordan(A):
+    # Convertir la matriz a tipo float para realizar divisiones
+    A = A.astype(float)
+    rows, cols = A.shape
+    
+    # Iterar sobre cada columna
+    for i in range(rows):
+        # Hacer 1 el pivote dividiendo toda la fila por el elemento A[i, i]
+        pivot = A[i, i]
+        A[i] = A[i] / pivot
+        print(f"Step {i*2+1}: Make pivot A[{i},{i}] = 1")
+        print(A)
+        
+        # Hacer 0 los elementos en la columna i, excepto el pivote
+        for j in range(rows):
+            if i != j:
+                factor = A[j, i]
+                A[j] = A[j] - factor * A[i]
+        print(f"Step {i*2+2}: Make other elements in column {i} = 0")
+        print(A)
+    
+    return A
+
+# Ejemplo de uso
+# Matriz aumentada para el sistema de ecuaciones 2x2:
+# 3x + 2y = 6
+# 2x + 2y = 7
+
+A = np.array([
+    [3, 2, 6],
+    [2, 2, 7],
+])
+
+result = gauss_jordan(A)
+print("Final Result:")
+print(result)
+```
+
 #### Comprobacion
 ![image](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/158504061/27620fa0-2684-4061-9743-92daf8562ff9)
 
@@ -110,7 +192,48 @@ print(result)
 
 ### Ejercicio 4
 #### Metodologia del codigo
-[![imagen-2024-05-23-082920988.png](https://i.postimg.cc/RCjj0J0B/imagen-2024-05-23-082920988.png)](https://postimg.cc/CdsvP1DP)
+
+```python
+import numpy as np
+
+def gauss_jordan(A):
+    # Convertir la matriz a tipo float para realizar divisiones
+    A = A.astype(float)
+    rows, cols = A.shape
+    
+    # Iterar sobre cada columna
+    for i in range(rows):
+        # Hacer 1 el pivote dividiendo toda la fila por el elemento A[i, i]
+        pivot = A[i, i]
+        A[i] = A[i] / pivot
+        print(f"Step {i*2+1}: Make pivot A[{i},{i}] = 1")
+        print(A)
+        
+        # Hacer 0 los elementos en la columna i, excepto el pivote
+        for j in range(rows):
+            if i != j:
+                factor = A[j, i]
+                A[j] = A[j] - factor * A[i]
+        print(f"Step {i*2+2}: Make other elements in column {i} = 0")
+        print(A)
+    
+    return A
+
+# Ejemplo de uso
+# Matriz aumentada para el sistema de ecuaciones 2x2:
+# 2x + 5y = 14
+# x + 7y = 7
+
+A = np.array([
+    [ 2, 5, 14],
+    [1, 7, 7]
+])
+
+result = gauss_jordan(A)
+print("Final Result:")
+print(result)
+```
+
 #### Comprobacion
 [![imagen-2024-05-23-082952948.png](https://i.postimg.cc/dVFp2MdN/imagen-2024-05-23-082952948.png)](https://postimg.cc/hfC2n52V)
 
@@ -118,7 +241,52 @@ print(result)
 
 ### Ejercicio 5
 #### Metodologia del codigo
-[![imagen-2024-05-23-083243644.png](https://i.postimg.cc/dV0mP4Kt/imagen-2024-05-23-083243644.png)](https://postimg.cc/XpTy9KJT)
+
+```python
+import numpy as np
+
+def gauss_jordan(A):
+    # Convertir la matriz a tipo float para realizar divisiones
+    A = A.astype(float)
+    rows, cols = A.shape
+    
+    # Iterar sobre cada columna
+    for i in range(rows):
+        # Hacer 1 el pivote dividiendo toda la fila por el elemento A[i, i]
+        pivot = A[i, i]
+        A[i] = A[i] / pivot
+        print(f"Step {i*2+1}: Make pivot A[{i},{i}] = 1")
+        print(A)
+        
+        # Hacer 0 los elementos en la columna i, excepto el pivote
+        for j in range(rows):
+            if i != j:
+                factor = A[j, i]
+                A[j] = A[j] - factor * A[i]
+        print(f"Step {i*2+2}: Make other elements in column {i} = 0")
+        print(A)
+    
+    return A
+
+# Ejemplo de uso
+# Matriz aumentada para el sistema de ecuaciones 4x4:
+# 2x + 1y + 3z + w = 3
+# x + 2y + 5z + w = -2
+# 2x + 5y - z + w = 1
+# 4x + 3y - 2z + w = 0
+
+A = np.array([
+    [2, 1, 3, 1, -3],
+    [1, 2, 5, 1, -2],
+    [1, 4, -3, 1, 5],
+    [4, 3, -2, 1, 0]
+])
+
+result = gauss_jordan(A)
+print("Final Result:")
+print(result)
+```
+
 #### Comprobacion
 [![imagen-2024-05-23-083312243.png](https://i.postimg.cc/rpBS4TRK/imagen-2024-05-23-083312243.png)](https://postimg.cc/f3vt46KN)
 
