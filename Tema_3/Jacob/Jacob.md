@@ -57,7 +57,48 @@ Recuerda que la velocidad de convergencia puede variar dependiendo de la natural
 #### Metodologia en codigo
 
 ```python
+import numpy as np
 
+
+def jacobi(A, b, x0, tol, N):
+    """
+    Método de Jacobi para resolver sistemas de ecuaciones lineales.
+    
+    Argumentos:
+    A -- matriz de coeficientes
+    b -- vector de términos independientes
+    x0 -- vector inicial de aproximación
+    tol -- tolerancia
+    N -- número máximo de iteraciones
+    """
+    x = x0.copy()
+    n = len(b)
+    
+    for i in range(N):
+        x_prev = x.copy()
+        for j in range(n):
+            sum = b[j]
+            for k in range(n):
+                if k != j:
+                    sum -= A[j, k] * x_prev[k]
+            x[j] = sum / A[j, j]
+        
+        if np.linalg.norm(x - x_prev, np.inf) < tol:
+            break
+    
+    return x
+
+
+# Ejemplo de uso
+A = np.array([[4, 1, -1, 1], [1, 5, 1, -1], [-1, 1, 6, 1], [1, -1, 1, 7]])
+b = np.array([5, 7, 9, 11])
+x0 = np.array([0, 0, 0, 0])
+tol = 1e-6
+N = 100
+
+
+x = jacobi(A, b, x0, tol, N)
+print(x)
 ```
 
 #### Comprobacion
@@ -67,6 +108,32 @@ Recuerda que la velocidad de convergencia puede variar dependiendo de la natural
 #### Metodologia en codigo
 
 ```python
+def sensitivity_analysis(A, b, x0, tol, max_iterations, delta):
+    original_solution, _ = jacobi(A, b, x0, tol, max_iterations)
+    sensitivity_results = []
+    
+    for i in range(A.shape[0]):
+        for j in range(A.shape[1]):
+            A_mod = A.copy()
+            A_mod[i, j] += delta
+            new_solution, _ = jacobi(A_mod, b, x0, tol, max_iterations)
+            sensitivity_results.append((i, j, new_solution))
+    
+    for i in range(len(b)):
+        b_mod = b.copy()
+        b_mod[i] += delta
+        new_solution, _ = jacobi(A, b_mod, x0, tol, max_iterations)
+        sensitivity_results.append((i, 'b', new_solution))
+    
+    return original_solution, sensitivity_results
+
+
+# Ejemplo
+delta = 0.1
+original_sol, sensitivity_results = sensitivity_analysis(A, b, x0, tol, max_iterations, delta)
+print(f"Solución original: {original_sol}")
+for result in sensitivity_results:
+    print(f"Modificación en {result[0]}, {result[1]}: {result[2]}")
 
 ```
 
@@ -77,6 +144,34 @@ Recuerda que la velocidad de convergencia puede variar dependiendo de la natural
 #### Metodologia en codigo
 
 ```python
+import numpy as np
+
+
+def jacobi(A, b, x0, tol, max_iterations):
+    n = len(b)
+    x = x0.copy()
+    for k in range(max_iterations):
+        x_new = np.zeros_like(x)
+        for i in range(n):
+            s = sum(A[i][j] * x[j] for j in range(n) if j != i)
+            x_new[i] = (b[i] - s) / A[i][i]
+        if np.linalg.norm(x_new - x, ord=np.inf) < tol:
+            return x_new, k + 1
+        x = x_new
+    return x, max_iterations
+
+
+# Ejemplo
+A = np.array([[4, -1, 0, 0], [-1, 4, -1, 0], [0, -1, 4, -1], [0, 0, -1, 3]])
+b = np.array([15, 10, 10, 10])
+x0 = np.zeros_like(b)
+tol = 1e-10
+max_iterations = 100
+
+
+sol, iterations = jacobi(A, b, x0, tol, max_iterations)
+print(f"Solución: {sol}")
+print(f"Iteraciones: {iterations}")
 
 ```
 
@@ -87,7 +182,48 @@ Recuerda que la velocidad de convergencia puede variar dependiendo de la natural
 #### Metodologia en codigo
 
 ```python
+import numpy as np
 
+
+def jacobi(A, b, x0, tol, N):
+    """
+    Método de Jacobi para resolver sistemas de ecuaciones lineales.
+    
+    Argumentos:
+    A -- matriz de coeficientes
+    b -- vector de términos independientes
+    x0 -- vector inicial de aproximación
+    tol -- tolerancia
+    N -- número máximo de iteraciones
+    """
+    x = x0.copy()
+    n = len(b)
+    
+    for i in range(N):
+        x_prev = x.copy()
+        for j in range(n):
+            sum = b[j]
+            for k in range(n):
+                if k != j:
+                    sum -= A[j, k] * x_prev[k]
+            x[j] = sum / A[j, j]
+        
+        if np.linalg.norm(x - x_prev, np.inf) < tol:
+            break
+    
+    return x
+
+
+# Ejemplo de uso
+A = np.array([[10, -1, 2], [1, 11, -1], [2, -1, 10]])
+b = np.array([27, 25, 27])
+x0 = np.array([0, 0, 0])
+tol = 1e-6
+N = 100
+
+
+x = jacobi(A, b, x0, tol, N)
+print(x)
 ```
 
 #### Comprobacion
@@ -97,7 +233,54 @@ Recuerda que la velocidad de convergencia puede variar dependiendo de la natural
 #### Metodologia en codigo
 
 ```python
+import numpy as np
+from scipy.sparse import csr_matrix
 
+
+def jacobi(A, b, x0, tol, N):
+    """
+    Método de Jacobi para resolver sistemas de ecuaciones lineales.
+    
+    Argumentos:
+    A -- matriz de coeficientes (scipy.sparse.csr_matrix)
+    b -- vector de términos independientes
+    x0 -- vector inicial de aproximación
+    tol -- tolerancia
+    N -- número máximo de iteraciones
+    """
+    x = x0.copy()
+    n = len(b)
+    
+    for i in range(N):
+        x_prev = x.copy()
+        for j in range(n):
+            sum = b[j]
+            for k in range(n):
+                if k != j:
+                    sum -= A[j, k] * x_prev[k]
+            x[j] = sum / A[j, j]
+        
+        if np.linalg.norm(x - x_prev, np.inf) < tol:
+            break
+    
+    return x
+
+
+# Ejemplo de uso
+A_data = np.array([10, 1, 2, 1, 11, 1, 2, 1, 9, 1, 2, 1, 12, 1, 2, 1, 10])
+A_row = np.array([0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4])
+A_col = np.array([0, 1, 4, 0, 2, 4, 1, 2, 4, 1, 3, 4, 0, 2, 3])
+A = csr_matrix((A_data, (A_row, A_col)), shape=(5, 5))
+
+
+b = np.array([14, 15, 11, 16, 13])
+x0 = np.array([0, 0, 0, 0, 0])
+tol = 1e-6
+N = 100
+
+
+x = jacobi(A, b, x0, tol, N)
+print(x)
 ```
 
 #### Comprobacion
