@@ -66,8 +66,8 @@ print('Solución:', sol)
 
 ```
 Esto significa que:
-x1 = 0
-x2 = 0.5
+- x1 = 0
+- x2 = 0.5
 
 #### Comprobacion
 [![imagen-2024-06-02-174420452.png](https://i.postimg.cc/Ghr29ZGC/imagen-2024-06-02-174420452.png)](https://postimg.cc/V5G1VZKG)
