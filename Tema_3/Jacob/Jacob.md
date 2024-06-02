@@ -52,36 +52,56 @@
 
 Recuerda que la velocidad de convergencia puede variar dependiendo de la naturaleza del sistema de ecuaciones, y puede que necesites ajustar la precisión o la suposición inicial para obtener resultados satisfactorios.
 
-## Implementación de los metodos en excel
-  ### Ejercicio 1
-  #### Metodologia
-  [![imagen-2024-05-23-091341645.png](https://i.postimg.cc/HxP4LM41/imagen-2024-05-23-091341645.png)](https://postimg.cc/ftm02Jr8)
-  #### Comprobacion
-  [![imagen-2024-05-23-091354523.png](https://i.postimg.cc/Rh61J0X6/imagen-2024-05-23-091354523.png)](https://postimg.cc/jnTnGRVt)
-  
-  ### Ejercicio 2
-  #### Metodologia
-  [![imagen-2024-05-23-091443345.png](https://i.postimg.cc/sfq4dpgp/imagen-2024-05-23-091443345.png)](https://postimg.cc/PNbw1vZx)
-  #### Comprobacion
-  [![imagen-2024-05-23-091520263.png](https://i.postimg.cc/j5CPB5Vg/imagen-2024-05-23-091520263.png)](https://postimg.cc/Fd5YLhH3)
-  
-  ### Ejercicio 3
-  #### Metodologia 
-  [![imagen-2024-05-23-091619428.png](https://i.postimg.cc/XNmgk5ZD/imagen-2024-05-23-091619428.png)](https://postimg.cc/c67YsrBQ)
-  #### Comprobacion
-  [![imagen-2024-05-23-091634258.png](https://i.postimg.cc/X75kHvdN/imagen-2024-05-23-091634258.png)](https://postimg.cc/MvWBXq9g)
-  
-  ### Ejercicio 4
-  #### Metodologia
-  [![imagen-2024-05-23-091956377.png](https://i.postimg.cc/v8f4CxqK/imagen-2024-05-23-091956377.png)](https://postimg.cc/pyVVFrtQ)
-  #### Comprobacion
-  [![imagen-2024-05-23-092009875.png](https://i.postimg.cc/9F2D2XsQ/imagen-2024-05-23-092009875.png)](https://postimg.cc/7bBHM4xF)
-  
-  ### Ejercicio 5
-  #### Metodologia
-  [![imagen-2024-05-23-092057131.png](https://i.postimg.cc/Dwj01r0S/imagen-2024-05-23-092057131.png)](https://postimg.cc/cv3dS8QW)
-  #### Comprobacion
-  [![imagen-2024-05-23-092109696.png](https://i.postimg.cc/vm4Bh4x3/imagen-2024-05-23-092109696.png)](https://postimg.cc/mcGB22wH)
+## Implementación de los metodos en python
+### Ejercicio 1
+#### Metodologia en codigo
+
+```python
+
+```
+
+#### Comprobacion
+[![imagen-2024-05-23-084108570.png](https://i.postimg.cc/y8z4L3qP/imagen-2024-05-23-084108570.png)](https://postimg.cc/MvtFTTpM)
+
+### Ejercicio 2
+#### Metodologia en codigo
+
+```python
+
+```
+
+#### Comprobacion
+[![imagen-2024-05-23-084348478.png](https://i.postimg.cc/50FWPBts/imagen-2024-05-23-084348478.png)](https://postimg.cc/0Mx4jJDS)
+
+### Ejercicio 3
+#### Metodologia en codigo
+
+```python
+
+```
+
+#### Comprobacion
+[![imagen-2024-05-23-084553240.png](https://i.postimg.cc/NMRP9pFv/imagen-2024-05-23-084553240.png)](https://postimg.cc/LY6VGkjx)
+
+### Ejercicio 4
+#### Metodologia en codigo
+
+```python
+
+```
+
+#### Comprobacion
+[![imagen-2024-05-23-084833866.png](https://i.postimg.cc/BQzc32ZT/imagen-2024-05-23-084833866.png)](https://postimg.cc/6ydGL2vq)
+
+### Ejercicio 5
+#### Metodologia en codigo
+
+```python
+
+```
+
+#### Comprobacion
+[![imagen-2024-05-23-085202453.png](https://i.postimg.cc/KYf1Gy76/imagen-2024-05-23-085202453.png)](https://postimg.cc/B88SpkVp)
 
 ## Implementacion y ejercicios
 [Ejercicios del metodo de Jacob](https://docs.google.com/spreadsheets/d/1pCUyxeDHE9aHkJPAhAWR9iPFlqWY9MG939s1Q2w7AOs/edit?usp=sharing)
