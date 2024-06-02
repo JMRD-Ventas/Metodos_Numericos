@@ -29,8 +29,8 @@
 ### Ejercicio 1
 #### Metodologia en codigo
 El sistema de ecuaciones que se resuelve es:
-3x + 2x = 1
-x + 2x = 1
+- 3x + 2x = 1
+- x + 2x = 1
 
 ```python
 import numpy as np
