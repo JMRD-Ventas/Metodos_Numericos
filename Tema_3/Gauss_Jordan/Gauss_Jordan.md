@@ -92,6 +92,7 @@ print(result)
 ```
 
 #### Comprobacion
+![Ejercici1](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/164206749/7741d8b5-b204-4169-9922-8fa10c46e0f3)
 [![imagen-2024-05-23-082428875.png](https://i.postimg.cc/9ftk8LPX/imagen-2024-05-23-082428875.png)](https://postimg.cc/yJxnWXr2)
 
 
