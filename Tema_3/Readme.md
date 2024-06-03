@@ -4,7 +4,7 @@ Los sistemas de ecuaciones lineales pueden resolverse mediante diversos métodos
 El método de Gauss-Seidel es un método iterativo que utiliza los valores calculados de las incógnitas en la misma iteración para calcular los nuevos valores de las incógnitas restantes. Esto lo hace más eficiente que el método de Jacobi, que utiliza los valores de las incógnitas de la iteración anterior.
 El método de Jacobi es un método iterativo simple que calcula nuevos valores de las incógnitas utilizando los valores de la iteración anterior. Es más lento que Gauss-Seidel, pero puede ser más estable en ciertos sistemas.
 
-## Indice
+## Índice
 - [Método de Gauss-Jordan](Gauss_Jordan/Gauss_Jordan.md)
   - [Ejercicios del método de Gauss-Jordan](Gauss_Jordan/Codigos)
     
