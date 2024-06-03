@@ -7,13 +7,13 @@ El método de Jacobi es un método iterativo simple que calcula nuevos valores d
 ## Indice
 - [Metodo de Gauss-Jordan](Gauss_Jordan/Gauss_Jordan.md)
   - [Ejercicios del método de Gauss-Jordan](Gauss_Jordan/Codigos)
-  - 
-- [Metodo de Gauss-Jordan](Gauss_Seidel/Gauss_Seidel.md)
-  - [Ejercicios del método de Gauss-Jordan](Gauss_Seidel/Codigos)
-  - 
-- [Metodo de Gauss-Jordan](Gauss_Simple/Gauss_Simple.md)
-  - [Ejercicios del método de Gauss-Jordan](Gauss_Simple/Codigos)
-  - 
-- [Metodo de Gauss-Jordan](Jacob/Jacob.md)
-  - [Ejercicios del método de Gauss-Jordan](Jacob/Codigos)
+    
+- [Metodo de Gauss-Seidel](Gauss_Seidel/Gauss_Seidel.md)
+  - [Ejercicios del método de Gauss-Seidel](Gauss_Seidel/Codigos)
+    
+- [Metodo de Gauss-Simple](Gauss_Simple/Gauss_Simple.md)
+  - [Ejercicios del método de Gauss-Simple](Gauss_Simple/Codigos)
+    
+- [Metodo de Jacon](Jacob/Jacob.md)
+  - [Ejercicios del método de Jacob](Jacob/Codigos)
    
