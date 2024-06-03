@@ -9,7 +9,7 @@ El problema general de la interpolación se nos presenta cuando nos dan una func
 
 ## Índice
 - [Método de intepolación cuadratica](Metodo_de_interpolacion_cuadratica/Descripcion.md)
-  - [Ejercicios del metodo Trapecio](Metodo_de_interpolacion_cuadratica/Descripcion.md/Codigos)
+  - [Ejercicios del metodo Trapecio](Metodo_de_interpolacion_cuadratica/Codigos)
 
 # Metodo de Lagrange.
 
