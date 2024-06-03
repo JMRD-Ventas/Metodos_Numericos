@@ -58,8 +58,11 @@ Recuerda que la velocidad de convergencia puede variar dependiendo de la natural
   Sistema de ecuaciones lineales 4x4:
   
   4x_1 + x_2 - x_3 + x_4 = 5
+  
   x_1 + 5x_2 + x_3 - x_4 = 7
+  
   -x_1 + x_2 + 6x_3 + x_4 = 9
+  
   x_1 - x_2 + x_3 + 7x_4 = 11
 
 ```python
