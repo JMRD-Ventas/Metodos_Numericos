@@ -104,7 +104,7 @@ print(f"Número de iteraciones: {iters}")
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-084108570.png](https://i.postimg.cc/y8z4L3qP/imagen-2024-05-23-084108570.png)](https://postimg.cc/MvtFTTpM)
+[![imagen-2024-06-03-105616466.png](https://i.postimg.cc/5y44MW4N/imagen-2024-06-03-105616466.png)](https://postimg.cc/mznfQq10)
 
 ### Ejercicio 2
 #### Metodologia en codigo
@@ -164,7 +164,7 @@ print(f"Número de iteraciones: {iters}")
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-084348478.png](https://i.postimg.cc/50FWPBts/imagen-2024-05-23-084348478.png)](https://postimg.cc/0Mx4jJDS)
+[![imagen-2024-06-03-105741662.png](https://i.postimg.cc/SR2ZRJNZ/imagen-2024-06-03-105741662.png)](https://postimg.cc/PvHbFfDZ)
 
 ### Ejercicio 3
 #### Metodologia en codigo
@@ -224,7 +224,7 @@ print(f"Número de iteraciones: {iters}")
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-084553240.png](https://i.postimg.cc/NMRP9pFv/imagen-2024-05-23-084553240.png)](https://postimg.cc/LY6VGkjx)
+[![imagen-2024-06-03-105847420.png](https://i.postimg.cc/ZRgGwkWM/imagen-2024-06-03-105847420.png)](https://postimg.cc/7G3tLWM3)
 
 ### Ejercicio 4
 #### Metodologia en codigo
@@ -270,9 +270,9 @@ def gauss_seidel(A, b, x0, tol=1e-6, max_iter=100):
     return x, iters+1
 
 # Ejemplo de uso
-A = np.array([[4, 1, -1, 1],
-              [1, 5, 1, 2],
-              [-1, 1, 6, 1],
+A = np.array([[5, 1, -1, 1],
+              [1, 5, 7, 2],
+              [-1, 4, 6, 1],
               [1, 2, 1, 4]])
 
 b = np.array([5, 11, 13, 15])
@@ -284,7 +284,7 @@ print(f"Número de iteraciones: {iters}")
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-084833866.png](https://i.postimg.cc/BQzc32ZT/imagen-2024-05-23-084833866.png)](https://postimg.cc/6ydGL2vq)
+[![imagen-2024-06-03-105847420.png](https://i.postimg.cc/ZRgGwkWM/imagen-2024-06-03-105847420.png)](https://postimg.cc/7G3tLWM3)
 
 ### Ejercicio 5
 #### Metodologia en codigo
@@ -380,7 +380,7 @@ print(f"Número de iteraciones: {iters}")
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-085202453.png](https://i.postimg.cc/KYf1Gy76/imagen-2024-05-23-085202453.png)](https://postimg.cc/B88SpkVp)
+[![imagen-2024-06-03-110219291.png](https://i.postimg.cc/Sx3t0LSn/imagen-2024-06-03-110219291.png)](https://postimg.cc/YvNxYWm7)
 
 ## Implementacion y ejercicios
 [Ejercicios del metodo de Gauss - Seidel](https://docs.google.com/spreadsheets/d/126d6fVLOEG1j31MZZNvPLMYPxiLwVk9_Ih7ST6xk3Z8/edit?usp=sharing)
