@@ -115,6 +115,7 @@ Esto significa que:
 - x = 2
 - y = 3
 - z = -1
+  
 [![imagen-2024-06-02-175335015.png](https://i.postimg.cc/GpYwFpnS/imagen-2024-06-02-175335015.png)](https://postimg.cc/HJphHdxQ)
 
 ---------
@@ -162,6 +163,7 @@ Esto significa que:
 - x = -6
 - y = -2
 - z = -3
+  
 [![imagen-2024-06-02-190407221.png](https://i.postimg.cc/fbZF4f9D/imagen-2024-06-02-190407221.png)](https://postimg.cc/0zWZDmnB)
 
 ---------
