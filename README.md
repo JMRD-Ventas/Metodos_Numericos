@@ -8,10 +8,7 @@ Todos los temas correspondientes a la materia de métodos numéricos
 En este tema, exploraremos los fundamentos de los métodos numéricos, que son herramientas esenciales en el análisis y la resolución de problemas matemáticos y científicos. Comenzaremos examinando el concepto de error de redondeo, seguido por el error de truncamiento y el fenómeno de overflow. Estos conceptos son cruciales para comprender cómo los cálculos numéricos pueden desviarse de los valores exactos y cómo mitigar estos errores en nuestros cálculos.
 
 ## Indice
-1. [Metodo de Gauss-Jordan](Metodos/Tema_3/Metodo_Gauss-Jordan.md)
-2. [Metodo de Gauss-Seidel](Metodos/Tema_3/Metodo_Gauss-seidel.md)
-3. [Metodo de Gauss](Metodos/Tema_3/Metodo_Gauss.md)
-4. [Metodo de Jacobi](Metodos/Tema_3/Metodo_Jacobi.md)
+- [¿Quieres mas informacion?](Tema_1/Readme.md)
 
 # Tema 2 - Métodos de Solución de Ecuaciones
 ## Descripcion del tema
