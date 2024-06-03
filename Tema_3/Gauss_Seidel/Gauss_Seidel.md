@@ -284,7 +284,7 @@ print(f"Número de iteraciones: {iters}")
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-084833866.png](https://i.postimg.cc/BQShY7NC/Whats-App-Image-2024-06-02-at-20-04-13-1.jpg)
+[![imagen-2024-05-23-084833866.png](https://i.postimg.cc/G2PQzvyN/Whats-App-Image-2024-06-02-at-20-10-37.jpg)
 
 ### Ejercicio 5
 #### Metodologia en codigo
