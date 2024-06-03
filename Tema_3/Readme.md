@@ -5,15 +5,15 @@ El método de Gauss-Seidel es un método iterativo que utiliza los valores calcu
 El método de Jacobi es un método iterativo simple que calcula nuevos valores de las incógnitas utilizando los valores de la iteración anterior. Es más lento que Gauss-Seidel, pero puede ser más estable en ciertos sistemas.
 
 ## Indice
-- [Metodo de Gauss-Jordan](Gauss_Jordan/Gauss_Jordan.md)
+- [Método de Gauss-Jordan](Gauss_Jordan/Gauss_Jordan.md)
   - [Ejercicios del método de Gauss-Jordan](Gauss_Jordan/Codigos)
     
-- [Metodo de Gauss-Seidel](Gauss_Seidel/Gauss_Seidel.md)
+- [Método de Gauss-Seidel](Gauss_Seidel/Gauss_Seidel.md)
   - [Ejercicios del método de Gauss-Seidel](Gauss_Seidel/Codigos)
     
-- [Metodo de Gauss-Simple](Gauss_Simple/Gauss_Simple.md)
+- [Método de Gauss-Simple](Gauss_Simple/Gauss_Simple.md)
   - [Ejercicios del método de Gauss-Simple](Gauss_Simple/Codigos)
     
-- [Metodo de Jacon](Jacob/Jacob.md)
+- [Método de Jacon](Jacob/Jacob.md)
   - [Ejercicios del método de Jacob](Jacob/Codigos)
    
