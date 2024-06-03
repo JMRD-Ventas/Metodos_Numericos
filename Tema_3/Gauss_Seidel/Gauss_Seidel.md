@@ -47,13 +47,13 @@
 ### Ejercicio 1
 #### Metodologia en codigo
 
-10x_1 - x_2 + 2x_3          = 6
+10x_1 - x_2 + 2x_3  = 6
 
 -x_1 + 11x_2 - x_3 + 3x_4   = 25
 
 2x_1 - x_2 + 10x_3 - x_4    = -11
 
-             3x_2 - x_3 + 8x_4 = 15
+3x_2 - x_3 + 8x_4 = 15
 
 ```python
 import numpy as np
@@ -191,7 +191,7 @@ print(f"Número de iteraciones: {iters}")
 
 2x_1 - x_2 + 10x_3 - x_4     = -11
 
-            3x_2 - x_3 + 8x_4 = 15
+3x_2 - x_3 + 8x_4 = 15
 
 ```python
 import numpy as np
