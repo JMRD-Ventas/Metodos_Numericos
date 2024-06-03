@@ -14,6 +14,6 @@ El método de Jacobi es un método iterativo simple que calcula nuevos valores d
 - [Método de Gauss-Simple](Gauss_Simple/Gauss_Simple.md)
   - [Ejercicios del método de Gauss-Simple](Gauss_Simple/Codigos)
     
-- [Método de Jacon](Jacob/Jacob.md)
+- [Método de Jacob](Jacob/Jacob.md)
   - [Ejercicios del método de Jacob](Jacob/Codigos)
    
