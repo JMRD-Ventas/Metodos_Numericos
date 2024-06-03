@@ -43,6 +43,10 @@
 ## Implementación de los metodos en python
 ### Ejercicio 1
 #### Metodologia en codigo
+El sistema de ecuaciones que se resuelve es:
+- x + y + z = 6
+- 2y + 5z = -4
+- 2x + 5y - z = 27
 
 ```python
 import numpy as np
@@ -93,6 +97,10 @@ print(result)
 
 ### Ejercicio 2
 #### Metodologia en codigo
+El sistema de ecuaciones que se resuelve es:
+- 2x + 3y + 6z = 7
+- y + z = 2
+- x + 5y + 2 = 4
 
 ```python
 import numpy as np
@@ -142,6 +150,9 @@ print(result)
 
 ### Ejercicio 3
 #### Metodologia en codigo
+El sistema de ecuaciones que se resuelve es:
+- 3x + 2y = 6
+- 2x + 2y = 7
 
 ```python
 import numpy as np
@@ -191,6 +202,9 @@ print(result)
 
 ### Ejercicio 4
 #### Metodologia en codigo
+El sistema de ecuaciones que se resuelve es:
+- 2x + 5y = 14
+- x + 7y = 7
 
 ```python
 import numpy as np
@@ -240,6 +254,11 @@ print(result)
 
 ### Ejercicio 5
 #### Metodologia en codigo
+El sistema de ecuaciones que se resuelve es:
+- 2x + 1y + 3z + w = 3
+- x + 2y + 5z + w = -2
+- 2x + 5y - z + w = 1
+- 4x + 3y - 2z + w = 0
 
 ```python
 import numpy as np
