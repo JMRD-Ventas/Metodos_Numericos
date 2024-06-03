@@ -43,3 +43,8 @@ x0 = np.zeros(len(b))
 
 solucion = jacobi(A, b, x0)
 print('Solución:', solucion)
+
+
+
+
+
