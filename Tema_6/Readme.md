@@ -7,11 +7,11 @@ En esencia, el método de Euler utiliza una aproximación de la derivada utiliza
 
 ## Indice
 - [Metodo de Euler](Método_de_Euler/Readme.md)
-  - [Ejercicio 1.py](Método_de_Euler/Ejercicio_1.py)
-  - [Ejercicio 2.py](Método_de_Euler/Ejercicio_2.py)
-  - [Ejercicio 3.py](Método_de_Euler/Ejercicio_3.py)
-  - [Ejercicio 4.py](Método_de_Euler/Ejercicio_4.py)
-  - [Ejercicio 5.py](Método_de_Euler/Ejercicio_5.py)
+  - [Ejercicio 1.py](Método_de_Euler/Codigos/Ejercicio_1.py)
+  - [Ejercicio 2.py](Método_de_Euler/Codigos/Ejercicio_2.py)
+  - [Ejercicio 3.py](Método_de_Euler/Codigos/Ejercicio_3.py)
+  - [Ejercicio 4.py](Método_de_Euler/Codigos/Ejercicio_4.py)
+  - [Ejercicio 5.py](Método_de_Euler/Codigos/Ejercicio_5.py)
 
 ------------
 
