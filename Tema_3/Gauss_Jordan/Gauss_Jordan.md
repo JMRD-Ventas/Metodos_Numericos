@@ -91,9 +91,8 @@ print("Final Result:")
 print(result)
 ```
 
-#### Comprobacion
+#### Comprobación
 ![Ejercici1](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/164206749/7741d8b5-b204-4169-9922-8fa10c46e0f3)
-[![imagen-2024-05-23-082428875.png](https://i.postimg.cc/9ftk8LPX/imagen-2024-05-23-082428875.png)](https://postimg.cc/yJxnWXr2)
 
 
 ### Ejercicio 2
@@ -145,8 +144,8 @@ result = gauss_jordan(A)
 print("Final Result:")
 print(result)
 ```
-#### Comprobacion
-![image](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/158504061/23589834-e01e-455d-93fb-742cd106d7f3)
+#### Comprobación
+![Ejercici2](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/164206749/f5c39fab-cb1f-42c6-b461-eaed3b25f3fa)
 
 
 ### Ejercicio 3
@@ -196,8 +195,8 @@ print("Final Result:")
 print(result)
 ```
 
-#### Comprobacion
-![image](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/158504061/27620fa0-2684-4061-9743-92daf8562ff9)
+#### Comprobación
+![Ejercici3](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/164206749/03919ef4-b29a-401c-9766-2b1c303ede97)
 
 
 
@@ -248,8 +247,8 @@ print("Final Result:")
 print(result)
 ```
 
-#### Comprobacion
-[![imagen-2024-05-23-082952948.png](https://i.postimg.cc/dVFp2MdN/imagen-2024-05-23-082952948.png)](https://postimg.cc/hfC2n52V)
+#### Comprobación
+![Ejercici4](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/164206749/930c1a18-ac41-4dda-b0c9-f1c743e5d41f)
 
 
 
@@ -306,8 +305,8 @@ print("Final Result:")
 print(result)
 ```
 
-#### Comprobacion
-[![imagen-2024-05-23-083312243.png](https://i.postimg.cc/rpBS4TRK/imagen-2024-05-23-083312243.png)](https://postimg.cc/f3vt46KN)
+#### Comprobación
+![Ejercici5](https://github.com/Gh-JMZM25/Metodos_Numericos/assets/164206749/c852e9d7-01c9-4898-b55b-81d3e332673f)
 
 ## Ejercicios en excel
 [Ejercicios del metodo de Gauss Jordan](https://docs.google.com/spreadsheets/d/13LaG-yuZGNyTcdEdCONMtDpY-dnTvp2FBTZWmA-gCLY/edit?usp=sharing)
