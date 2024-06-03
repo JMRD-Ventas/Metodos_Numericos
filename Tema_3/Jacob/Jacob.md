@@ -118,8 +118,11 @@ print("Solución aproximada:", x)
   Implementa un análisis de sensibilidad para observar cómo la solución cambia con variaciones en la matriz A y el vector B:
 
   4x_1 - x_2 = 15
+  
   -x_1 + 4x_2 - x_3 = 10
+  
   -x_2 + 4x_3 - x_4 = 10
+  
   -x_3 + 3x_4 = 10
 
 ```python
@@ -178,8 +181,11 @@ print('Solución:', solucion)
   Implementa una versión básica del método de Jacobi para resolver un sistema de ecuaciones lineales Ax=bAx = bAx=b:
 
    4x₁ - x₂ = 15
+   
   -x₁ + 4x₂ - x₃ = 10
+  
   -x₂ + 4x₃ - x₄ = 10
+  
   -x₃ + 3x₄ = 10
 
 ```python
@@ -222,7 +228,9 @@ print(f"Iteraciones: {iterations}")
   Sistema de ecuaciones lineales 3x3:
 
   4x₁ + x₂ + x₃ = 6
+  
   x₁ + 3x₂ + x₃ = 4
+  
   x₁ + x₂ + 3x₃ = 6
 
 ```python
@@ -276,8 +284,11 @@ print("Solución:", x)
   Sistema de ecuaciones lineales con matriz dispersa:
   
   10x₁ - x₂ + 2x₃ = 6
+  
   -x₁ + 11x₂ - x₃ + 3x₄ = 25
+  
   2x₁ - x₂ + 10x₃ - x₄ = -11
+  
   3x₂ - x₃ + 8x₄ = 15
   
 ```python
