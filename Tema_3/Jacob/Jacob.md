@@ -98,7 +98,7 @@ N = 100
 
 
 x = jacobi(A, b, x0, tol, N)
-print(x)
+print("Solución aproximada:", x)
 ```
 
 #### Comprobacion
