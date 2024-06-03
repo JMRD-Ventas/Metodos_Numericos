@@ -15,8 +15,7 @@ El problema general de la interpolación se nos presenta cuando nos dan una func
 El método de interpolación de Lagrange es una técnica matemática utilizada para encontrar un polinomio que pase a través de un conjunto dado de puntos de datos. Este polinomio se denomina polinomio interpolador de Lagrange.
 
 La idea básica del método de Lagrange es construir un polinomio de grado n-1 (donde n es el número de puntos de datos) que coincida con los valores de la función en esos puntos de datos. Matemáticamente, el polinomio interpolador de Lagrange se define como:
-    
-    P(x) = y₁L₁(x) + y₂L₂(x) + ... + yₙLₙ(x)
+P(x) = y₁L₁(x) + y₂L₂(x) + ... + yₙLₙ(x)
     
 
 
