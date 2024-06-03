@@ -24,11 +24,11 @@ El método de Runge-Kutta se basa en evaluar la pendiente (derivada) en varios p
 
 ## Indice
 - [Metodo Runge-Kutta](Método_de_Runge-Kutta/Readme.md)
-  - [Ejercicio 1.py](Método_de_Runge-Kutta/Ejercicio_1.py)
-  - [Ejercicio 2.py](Método_de_Runge-Kutta/Ejercicio_2.py)
-  - [Ejercicio 3.py](Método_de_Runge-Kutta/Ejercicio_3.py)
-  - [Ejercicio 4.py](Método_de_Runge-Kutta/Ejercicio_4.py)
-  - [Ejercicio 5.py](Método_de_Runge-Kutta/Ejercicio_5.py)
+  - [Ejercicio 1.py](Método_de_Runge-Kutta/Codigos/Ejercicio_1.py)
+  - [Ejercicio 2.py](Método_de_Runge-Kutta/Codigos/Ejercicio_2.py)
+  - [Ejercicio 3.py](Método_de_Runge-Kutta/Codigos/Ejercicio_3.py)
+  - [Ejercicio 4.py](Método_de_Runge-Kutta/Codigos/Ejercicio_4.py)
+  - [Ejercicio 5.py](Método_de_Runge-Kutta/Codigos/Ejercicio_5.py)
     
 ------------
 
@@ -49,10 +49,10 @@ El método de Taylor es adecuado para EDOs de orden superior cuando se conocen l
 
 ## Indice
 - [Metodo Teylor](Método_de_Taylor/Readme.md)
-  - [Ejercicio 1.py](Método_de_Taylor/Ejercicio_1.py)
-  - [Ejercicio 2.py](Método_de_Taylor/Ejercicio_2.py)
-  - [Ejercicio 3.py](Método_de_Taylor/Ejercicio_3.py)
-  - [Ejercicio 4.py](Método_de_Taylor/Ejercicio_4.py)
-  - [Ejercicio 5.py](Método_de_Taylor/Ejercicio_5.py)
+  - [Ejercicio 1.py](Método_de_Taylor/Codigos/Ejercicio_1.py)
+  - [Ejercicio 2.py](Método_de_Taylor/Codigos/Ejercicio_2.py)
+  - [Ejercicio 3.py](Método_de_Taylor/Codigos/Ejercicio_3.py)
+  - [Ejercicio 4.py](Método_de_Taylor/Codigos/Ejercicio_4.py)
+  - [Ejercicio 5.py](Método_de_Taylor/Codigos/Ejercicio_5.py)
 
 
