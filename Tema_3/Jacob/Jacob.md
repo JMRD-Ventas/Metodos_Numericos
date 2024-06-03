@@ -177,7 +177,7 @@ print('Solución:', solucion)
    4x₁ - x₂ = 15
   -x₁ + 4x₂ - x₃ = 10
   -x₂ + 4x₃ - x₄ = 10
-  -x₃ + 3x₄ = 10 
+  -x₃ + 3x₄ = 10
 
 ```python
 import numpy as np
