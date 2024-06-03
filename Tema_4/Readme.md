@@ -12,3 +12,11 @@ Para aplicar este método, se debe dividir el intervalo [a, b] en subintervalos 
 
 ## ¿Qué es?
 La cuadratura de Gauss es un método numérico utilizado para aproximar la integral definida de una función. Se basa en la idea de seleccionar puntos de evaluación y pesos de manera óptima para obtener resultados precisos al integrar polinomios de grado 2n-1 o menos1.
+
+
+
+# Regla de Simpson.
+
+## ¿Que es?
+
+La regla de Simpson es un método de integración numérica que se utiliza para la aproximación numérica de integrales definidas1. El intervalo de integración [a, b] se subdivide en n subintervalos con n siendo un entero par. El ancho de cada subdivisión será: h = (b – a)/n2. La regla de Simpson se utiliza para aproximar el valor de una integral definida, y se basa en la idea de aproximar la curva de la función integrando polinomios de segundo grado2.
