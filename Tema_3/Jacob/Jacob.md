@@ -102,7 +102,7 @@ print(x)
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-084108570.png](https://i.postimg.cc/y8z4L3qP/imagen-2024-05-23-084108570.png)](https://postimg.cc/MvtFTTpM)
+[![image.png](https://i.postimg.cc/HLhfwCWY/image.png)](https://postimg.cc/4KpLGqhq)
 
 ### Ejercicio 2
 #### Metodologia en codigo
@@ -138,7 +138,7 @@ for result in sensitivity_results:
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-084348478.png](https://i.postimg.cc/50FWPBts/imagen-2024-05-23-084348478.png)](https://postimg.cc/0Mx4jJDS)
+[![image.png](https://i.postimg.cc/7PcpG4sm/image.png)](https://postimg.cc/grVMQCPZ)
 
 ### Ejercicio 3
 #### Metodologia en codigo
@@ -176,7 +176,7 @@ print(f"Iteraciones: {iterations}")
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-084553240.png](https://i.postimg.cc/NMRP9pFv/imagen-2024-05-23-084553240.png)](https://postimg.cc/LY6VGkjx)
+[![image.png](https://i.postimg.cc/v8WNBnnH/image.png)](https://postimg.cc/s1gcHvKt)
 
 ### Ejercicio 4
 #### Metodologia en codigo
@@ -227,7 +227,7 @@ print(x)
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-084833866.png](https://i.postimg.cc/BQzc32ZT/imagen-2024-05-23-084833866.png)](https://postimg.cc/6ydGL2vq)
+[![image.png](https://i.postimg.cc/rpr9H6CF/image.png)](https://postimg.cc/nsn7sPP6)
 
 ### Ejercicio 5
 #### Metodologia en codigo
@@ -284,7 +284,7 @@ print(x)
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-085202453.png](https://i.postimg.cc/KYf1Gy76/imagen-2024-05-23-085202453.png)](https://postimg.cc/B88SpkVp)
+[![image.png](https://i.postimg.cc/NjW6mJqh/image.png)](https://postimg.cc/QFJKrqdS)
 
 ## Implementacion y ejercicios
 [Ejercicios del metodo de Jacob](https://docs.google.com/spreadsheets/d/1pCUyxeDHE9aHkJPAhAWR9iPFlqWY9MG939s1Q2w7AOs/edit?usp=sharing)
