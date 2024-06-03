@@ -283,6 +283,8 @@ print(x)
   x, k = jacobi(A, b, x0, tol, N)
   print(f"Solución aproximada: {x}")
   print(f"Número de iteraciones: {k}")
+```
+
 
 #### Comprobacion
 [![image.png](https://i.postimg.cc/NjW6mJqh/image.png)](https://postimg.cc/QFJKrqdS)
