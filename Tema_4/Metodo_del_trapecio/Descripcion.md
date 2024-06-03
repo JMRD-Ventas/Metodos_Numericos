@@ -13,4 +13,18 @@ Para aplicar este método, se debe dividir el intervalo [a, b] en subintervalos 
 5. Aplicar la fórmula del trapecio para cada subintervalo.
 6. Sumar todas las áreas de los trapecios para obtener la aproximación final de la integral.
 
+## Implementación de los metodos en python
+### Ejercicio 1
+#### Metodologia en codigo
 
+### Ejercicio 2
+#### Metodologia en codigo
+
+### Ejercicio 3
+#### Metodologia en codigo
+
+### Ejercicio 4
+#### Metodologia en codigo
+
+### Ejercicio 5
+#### Metodologia en codigo
