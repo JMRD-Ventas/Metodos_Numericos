@@ -234,54 +234,55 @@ print(x)
 
 ```python
 import numpy as np
-from scipy.sparse import csr_matrix
-
 
 def jacobi(A, b, x0, tol, N):
     """
     Método de Jacobi para resolver sistemas de ecuaciones lineales.
     
-    Argumentos:
-    A -- matriz de coeficientes (scipy.sparse.csr_matrix)
-    b -- vector de términos independientes
-    x0 -- vector inicial de aproximación
-    tol -- tolerancia
-    N -- número máximo de iteraciones
+    Parámetros:
+    A (numpy.ndarray): La matriz de coeficientes del sistema.
+    b (numpy.ndarray): El vector de términos independientes.
+    x0 (numpy.ndarray): Una aproximación inicial de la solución.
+    tol (float): La tolerancia para determinar la convergencia.
+    N (int): El número máximo de iteraciones.
+    
+    Devuelve:
+    x (numpy.ndarray): La solución aproximada.
+    k (int): El número de iteraciones realizadas.
     """
-    x = x0.copy()
     n = len(b)
+    x = x0.copy()
     
-    for i in range(N):
-        x_prev = x.copy()
-        for j in range(n):
-            sum = b[j]
-            for k in range(n):
-                if k != j:
-                    sum -= A[j, k] * x_prev[k]
-            x[j] = sum / A[j, j]
+    for k in range(N):
+        x_new = np.zeros_like(x)
         
-        if np.linalg.norm(x - x_prev, np.inf) < tol:
+        for i in range(n):
+            s = b[i]
+            for j in range(n):
+                if i != j:
+                    s -= A[i, j] * x[j]
+            x_new[i] = s / A[i, i]
+        
+        if np.linalg.norm(x_new - x, np.inf) < tol:
             break
+        
+        x = x_new
     
-    return x
-
+    return x, k + 1
 
 # Ejemplo de uso
-A_data = np.array([10, 1, 2, 1, 11, 1, 2, 1, 9, 1, 2, 1, 12, 1, 2, 1, 10])
-A_row = np.array([0, 0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4])
-A_col = np.array([0, 1, 4, 0, 2, 4, 1, 2, 4, 1, 3, 4, 0, 2, 3])
-A = csr_matrix((A_data, (A_row, A_col)), shape=(5, 5))
-
-
-b = np.array([14, 15, 11, 16, 13])
-x0 = np.array([0, 0, 0, 0, 0])
+A = np.array([[10, -1, 2, 0],
+              [-1, 11, -1, 3],
+              [2, -1, 10, -1],
+              [0, 3, -1, 8]])
+b = np.array([6, 25, -11, 15])
+x0 = np.array([0, 0, 0, 0])  # Aproximación inicial
 tol = 1e-6
 N = 100
 
-
-x = jacobi(A, b, x0, tol, N)
-print(x)
-```
+x, k = jacobi(A, b, x0, tol, N)
+print(f"Solución aproximada: {x}")
+print(f"Número de iteraciones: {k}")
 
 #### Comprobacion
 [![image.png](https://i.postimg.cc/NjW6mJqh/image.png)](https://postimg.cc/QFJKrqdS)
