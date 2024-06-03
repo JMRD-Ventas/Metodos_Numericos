@@ -32,6 +32,7 @@ El problema general de la interpolación se nos presenta cuando nos dan una func
 
 ## Implementación de los codigos en Python.
 ### Ejercicio 1.py
+Este código realiza una interpolación cuadrática usando un polinomio de segundo grado para estimar la población en 1994 basado en datos de población en 1986 y 2001.
 #### Codigo.
     import numpy as np
 
@@ -60,6 +61,7 @@ El problema general de la interpolación se nos presenta cuando nos dan una func
 [![imagen-2024-05-20-192826114.png](https://i.postimg.cc/FFwVVLKY/IMG-20240520-234632.png)
 
 ### Ejercicio 2.py
+El problema a resolver en Python consiste en calcular un aproximado al precio del dolar en el año 2016, tomando como referencia los años 2008, 2012 y 2020.
 #### Codigo.
    
     #Programa que calcula el precio del dolar en 2016 tomando en cuenta los años 2008, 2012 y 2020
@@ -90,6 +92,7 @@ El problema general de la interpolación se nos presenta cuando nos dan una func
 [![imagen-2024-05-20-193210020.png](https://i.postimg.cc/1zRG30vj/IMG-20240520-234653.png)
 
 ### Ejercicio 3.py
+La siguiente implementación resuelve el problema de calcular la integral de x^3 con intervalos en 4 y 0, saliendo de la base de los cálculos para puntos en 2, 3 y 5.
 #### Codigo.
     #Programa que calcula la integral x^3 donde x es 4 y 0
     import numpy as np
@@ -120,6 +123,7 @@ El problema general de la interpolación se nos presenta cuando nos dan una func
 [![imagen-2024-05-20-194023521.png](https://i.postimg.cc/0Q8BxJSk/IMG-20240520-235820.png)
 
 ### Ejercicio 4.py
+Se busca calcular un aproximado del promedio de vida en el año de 1980, y se toma como referencia los años 1930, 1970 y el 2000.
 #### Codigo.
    
     #Programa que calcula el promedio de vida en años en México durante 1980
@@ -150,6 +154,7 @@ El problema general de la interpolación se nos presenta cuando nos dan una func
 [![imagen-2024-05-20-194230153.png](https://i.postimg.cc/Fz0dZ1PS/IMG-20240520-234709.png)
 
 ### Ejercicio 5.py
+El programa consiste en calcular la inflación en 2014 apoyándonos en los resultados obtenidos en 2005, 2010 y 2021.
 #### Codigo.
    
     #Programa que calcula el porcentaje de inflación en México en 2014
