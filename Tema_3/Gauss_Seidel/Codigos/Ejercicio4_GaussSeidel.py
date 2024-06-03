@@ -38,9 +38,9 @@ def gauss_seidel(A, b, x0, tol=1e-6, max_iter=100):
     return x, iters+1
 
 # Ejemplo de uso
-A = np.array([[4, 1, -1, 1],
-              [1, 5, 1, 2],
-              [-1, 1, 6, 1],
+A = np.array([[5, 1, -1, 1],
+              [1, 5, 7, 2],
+              [-1, 4, 6, 1],
               [1, 2, 1, 4]])
 
 b = np.array([5, 11, 13, 15])
