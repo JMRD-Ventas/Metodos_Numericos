@@ -164,7 +164,7 @@ print(f"Número de iteraciones: {iters}")
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-084348478.png]((https://i.postimg.cc/kMxZhbC7/Whats-App-Image-2024-06-02-at-19-59-22.jpg))
+[![imagen-2024-05-23-084348478.png](https://i.postimg.cc/kMxZhbC7/Whats-App-Image-2024-06-02-at-19-59-22.jpg)
 
 ### Ejercicio 3
 #### Metodologia en codigo
@@ -284,7 +284,7 @@ print(f"Número de iteraciones: {iters}")
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-084833866.png](https://i.postimg.cc/BQzc32ZT/imagen-2024-05-23-084833866.png)](https://postimg.cc/6ydGL2vq)
+[![imagen-2024-05-23-084833866.png](https://i.postimg.cc/BQShY7NC/Whats-App-Image-2024-06-02-at-20-04-13-1.jpg)
 
 ### Ejercicio 5
 #### Metodologia en codigo
