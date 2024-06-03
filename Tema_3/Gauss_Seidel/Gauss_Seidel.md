@@ -284,7 +284,7 @@ print(f"Número de iteraciones: {iters}")
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-084833866.png](https://i.postimg.cc/G2PQzvyN/Whats-App-Image-2024-06-02-at-20-10-37.jpg)
+[![imagen-2024-05-23-084833866.png](https://i.postimg.cc/BQShY7NC/Whats-App-Image-2024-06-02-at-20-04-13-1.jpg)
 
 ### Ejercicio 5
 #### Metodologia en codigo
@@ -380,7 +380,7 @@ print(f"Número de iteraciones: {iters}")
 ```
 
 #### Comprobacion
-[![imagen-2024-05-23-085202453.png](https://i.postimg.cc/KYf1Gy76/imagen-2024-05-23-085202453.png)](https://postimg.cc/B88SpkVp)
+[![imagen-2024-05-23-085202453.png](https://i.postimg.cc/G2PQzvyN/Whats-App-Image-2024-06-02-at-20-10-37.jpg)
 
 ## Implementacion y ejercicios
 [Ejercicios del metodo de Gauss - Seidel](https://docs.google.com/spreadsheets/d/126d6fVLOEG1j31MZZNvPLMYPxiLwVk9_Ih7ST6xk3Z8/edit?usp=sharing)
