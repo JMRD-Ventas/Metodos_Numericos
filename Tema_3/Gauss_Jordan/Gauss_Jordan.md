@@ -1,6 +1,6 @@
 # Gauss Jordan
 
-## ¿Que es el metodo de Gauss Jordan?
+## ¿Qué es el método de Gauss Jordan?
   Es un algoritmo utilizado en álgebra lineal para encontrar las soluciones de un sistema de ecuaciones lineales o para encontrar la inversa de una matriz. 
   El método consiste en aplicar operaciones elementales de fila a una matriz ampliada que contiene tanto la matriz de coeficientes como el vector de términos 
   constantes en un sistema de ecuaciones lineales. Estas operaciones elementales de fila incluyen intercambio de filas, multiplicación de una fila por un escalar 
