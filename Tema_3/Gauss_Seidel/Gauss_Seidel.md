@@ -47,6 +47,14 @@
 ### Ejercicio 1
 #### Metodologia en codigo
 
+10x_1 - x_2 + 2x_3          = 6
+
+-x_1 + 11x_2 - x_3 + 3x_4   = 25
+
+2x_1 - x_2 + 10x_3 - x_4    = -11
+
+             3x_2 - x_3 + 8x_4 = 15
+
 ```python
 import numpy as np
 
@@ -109,6 +117,14 @@ print(f"Número de iteraciones: {iters}")
 ### Ejercicio 2
 #### Metodologia en codigo
 
+4x_1 + x_2 - x_3 + x_4 = 5
+
+x_1 + 5x_2 + x_3 + 2x_4 = 11
+
+-x_1 + x_2 + 6x_3 + x_4 = 13
+
+x_1 + 2x_2 + x_3 + 4x_4 = 15
+
 ```python
 import numpy as np
 
@@ -168,6 +184,14 @@ print(f"Número de iteraciones: {iters}")
 
 ### Ejercicio 3
 #### Metodologia en codigo
+
+10x_1 - x_2 + 2x_3           = 6
+
+-x_1 + 11x_2 - x_3 + 3x_4    = 25
+
+2x_1 - x_2 + 10x_3 - x_4     = -11
+
+            3x_2 - x_3 + 8x_4 = 15
 
 ```python
 import numpy as np
@@ -229,6 +253,14 @@ print(f"Número de iteraciones: {iters}")
 ### Ejercicio 4
 #### Metodologia en codigo
 
+5x_1 + x_2 - x_3 + x_4 = 5
+
+x_1 + 5x_2 + 7x_3 + 2x_4 = 11  
+
+-x_1 + 4x_2 + 6x_3 + x_4 = 13
+
+x_1 + 2x_2 + x_3 + 4x_4 = 15
+
 ```python
 import numpy as np
 
@@ -288,6 +320,14 @@ print(f"Número de iteraciones: {iters}")
 
 ### Ejercicio 5
 #### Metodologia en codigo
+
+4x_1 + x_2 - x_3 + x_4 = 5
+
+x_1 + 5x_2 + x_3 + 2x_4 = 11
+
+-x_1 + x_2 + 6x_3 + x_4 = 13
+
+x_1 + 2x_2 + x_3 + 4x_4 = 15
 
 ```python
 import numpy as np
