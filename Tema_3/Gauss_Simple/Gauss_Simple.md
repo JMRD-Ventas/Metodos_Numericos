@@ -116,7 +116,7 @@ Esto significa que:
 - y = 3
 - z = -1
   
-[![imagen-2024-06-02-175335015.png](https://i.postimg.cc/GpYwFpnS/imagen-2024-06-02-175335015.png)](https://postimg.cc/HJphHdxQ)
+[![imagen-2024-06-02-175335015.png]([https://i.postimg.cc/GpYwFpnS/imagen-2024-06-02-175335015.png)](https://postimg.cc/HJphHdxQ](https://i.postimg.cc/50kc9cPb/Whats-App-Image-2024-06-02-at-19-25-17.jpg))
 
 ---------
 
