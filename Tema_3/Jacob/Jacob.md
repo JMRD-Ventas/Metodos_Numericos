@@ -55,6 +55,7 @@ Recuerda que la velocidad de convergencia puede variar dependiendo de la natural
 ## Implementación de los metodos en python
 ### Ejercicio 1
 #### Metodologia en codigo
+  Sistema de ecuaciones lineales 4x4
 
 ```python
 import numpy as np
@@ -106,6 +107,7 @@ print("Solución aproximada:", x)
 
 ### Ejercicio 2
 #### Metodologia en codigo
+  Implementa un análisis de sensibilidad para observar cómo la solución cambia con variaciones en la matriz A y el vector B.
 
 ```python
 import numpy as np
@@ -160,6 +162,7 @@ print('Solución:', solucion)
 
 ### Ejercicio 3
 #### Metodologia en codigo
+  Implementa una versión básica del método de Jacobi para resolver un sistema de ecuaciones lineales Ax=bAx = bAx=b.
 
 ```python
 import numpy as np
@@ -198,6 +201,7 @@ print(f"Iteraciones: {iterations}")
 
 ### Ejercicio 4
 #### Metodologia en codigo
+  Sistema de ecuaciones lineales 3x3
 
 ```python
 import numpy as np
@@ -247,7 +251,7 @@ print("Solución:", x)
 
 ### Ejercicio 5
 #### Metodologia en codigo
-
+  Sistema de ecuaciones lineales con matriz dispersa
 ```python
   import numpy as np
   
