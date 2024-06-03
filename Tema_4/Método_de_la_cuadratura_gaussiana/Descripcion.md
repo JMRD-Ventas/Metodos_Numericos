@@ -9,6 +9,19 @@ La cuadratura de Gauss es un método numérico utilizado para aproximar la integ
 2. Evaluar la función en los puntos de Gauss obtenidos en el paso anterior.
 3. Calcular el valor aproximado de la integral como la suma ponderada de los valores de la función en los puntos de Gauss, utilizando los pesos correspondientes.
 
+## Implementación de los metodos en python
+### Ejercicio 1
+#### Metodologia en codigo
 
+### Ejercicio 2
+#### Metodologia en codigo
 
+### Ejercicio 3
+#### Metodologia en codigo
+
+### Ejercicio 4
+#### Metodologia en codigo
+
+### Ejercicio 5
+#### Metodologia en codigo
 
