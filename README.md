@@ -1,7 +1,5 @@
 # Metodos_Numericos
 Todos los temas correspondientes a la materia de métodos numéricos
-## Indice
-
 
 # Tema 1 Introducción MN
 ## Descripcion del tema
