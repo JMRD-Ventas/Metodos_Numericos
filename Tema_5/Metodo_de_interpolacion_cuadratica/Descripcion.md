@@ -32,6 +32,7 @@ El problema general de la interpolación se nos presenta cuando nos dan una func
 
 ## Implementación de los codigos en Python.
 ### Ejercicio 1.py
+Este código realiza una interpolación cuadrática usando un polinomio de segundo grado para estimar la población en 1997 basado en datos de población en 1986, 1994 y 2001.
 #### Codigo.
     import numpy as np
 
