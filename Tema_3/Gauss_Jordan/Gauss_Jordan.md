@@ -312,7 +312,7 @@ print(result)
 [Ejercicios del metodo de Gauss Jordan](https://docs.google.com/spreadsheets/d/13LaG-yuZGNyTcdEdCONMtDpY-dnTvp2FBTZWmA-gCLY/edit?usp=sharing)
 
 ## Regresar a la pagina anterior.
-[Ejercicios del metodo de Gauss Jordan](Tema_3/Readme.md)
+[Ejercicios del metodo de Gauss Jordan](Readme.md)
 
 
 
